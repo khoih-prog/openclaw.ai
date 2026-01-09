@@ -1,10 +1,21 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import testimonials from '../data/testimonials.json';
+import extraTestimonials from '../data/testimonials-extra.json';
+
+// Mix 80% strong + 20% extra for variety
+const strong1 = testimonials.slice(0, 15);
+const strong2 = testimonials.slice(15);
+const extra1 = extraTestimonials.slice(0, 4);
+const extra2 = extraTestimonials.slice(4, 8);
+
+// Interleave extras into strong testimonials
+const mixed1 = [...strong1.slice(0, 5), extra1[0], ...strong1.slice(5, 10), extra1[1], ...strong1.slice(10), extra1[2], extra1[3]];
+const mixed2 = [...strong2.slice(0, 5), extra2[0], ...strong2.slice(5, 10), extra2[1], ...strong2.slice(10), extra2[2], extra2[3]];
 
 // Duplicate for seamless loop
-const row1 = [...testimonials.slice(0, 14), ...testimonials.slice(0, 14)];
-const row2 = [...testimonials.slice(14), ...testimonials.slice(14)];
+const row1 = [...mixed1, ...mixed1];
+const row2 = [...mixed2, ...mixed2];
 ---
 
 <Layout title="Clawdbot — Personal AI Assistant">
@@ -650,11 +661,11 @@ const row2 = [...testimonials.slice(14), ...testimonials.slice(14)];
   }
 
   .row-1 {
-    animation: scroll-left 60s linear infinite;
+    animation: scroll-left 80s linear infinite;
   }
 
   .row-2 {
-    animation: scroll-right 50s linear infinite;
+    animation: scroll-right 90s linear infinite;
   }
 
   @keyframes scroll-left {
