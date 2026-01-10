@@ -227,10 +227,12 @@ const duration2 = (row2.length / 2 * pixelsPerItem) / pixelsPerSecond;
       </div>
     </section>
 
-    <!-- Showcase Link -->
-    <p class="showcase-link">
-      <a href="https://docs.clawd.bot/start/showcase" target="_blank" rel="noopener">See what people built</a>
-    </p>
+    <!-- Shoutouts & Showcase Links -->
+    <div class="bottom-links">
+      <a href="/shoutouts" class="bottom-link">All shoutouts</a>
+      <span class="link-separator">·</span>
+      <a href="https://docs.clawd.bot/start/showcase" target="_blank" rel="noopener" class="bottom-link">See what people built</a>
+    </div>
 
     <!-- Footer -->
     <footer class="footer">
@@ -626,24 +628,31 @@ const duration2 = (row2.length / 2 * pixelsPerItem) / pixelsPerSecond;
   }
 
 
-  /* Showcase Link */
-  .showcase-link {
+  /* Bottom Links */
+  .bottom-links {
     text-align: center;
     font-size: 0.95rem;
-    color: var(--text-muted);
     margin-bottom: 40px;
     animation: fadeInUp 0.8s ease-out 0.7s both;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
   }
 
-  .showcase-link a {
+  .bottom-link {
     color: var(--coral-bright);
     text-decoration: none;
     font-weight: 500;
     transition: color 0.2s ease;
   }
 
-  .showcase-link a:hover {
+  .bottom-link:hover {
     color: var(--cyan-bright);
+  }
+
+  .link-separator {
+    color: var(--text-muted);
   }
 
   /* Testimonials */
