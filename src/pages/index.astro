@@ -197,8 +197,12 @@ const duration2 = (row2.length / 2 * pixelsPerItem) / pixelsPerSecond;
       };
 
       let currentPm = 'npm';
-      let currentOs = 'unix';
       let currentMode = 'oneliner';
+
+      // Auto-detect OS
+      const isWindows = navigator.platform.toLowerCase().includes('win') ||
+                        navigator.userAgent.toLowerCase().includes('windows');
+      let currentOs = isWindows ? 'windows' : 'unix';
 
       const pmBtns = document.querySelectorAll('.pm-btn');
       const osBtns = document.querySelectorAll('.os-btn');
@@ -254,6 +258,10 @@ const duration2 = (row2.length / 2 * pixelsPerItem) / pixelsPerSecond;
           updateVisibility();
         });
       });
+
+      // Initialize UI based on detected OS
+      osBtns.forEach(b => b.classList.toggle('active', b.dataset.os === currentOs));
+      updateCommands();
     </script>
 
     <!-- Testimonials -->
