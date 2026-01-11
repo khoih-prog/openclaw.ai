@@ -36,7 +36,7 @@ emit_json() {
 
 fail() {
   local msg="$1"
-  emit_json "{\"event\":\"error\",\"message\":\"${msg//"/\\\"}\"}"
+  emit_json "{\"event\":\"error\",\"message\":\"${msg//\"/\\\"}\"}"
   log "ERROR: $msg"
   exit 1
 }
@@ -161,7 +161,15 @@ install_node() {
 install_clawdbot() {
   emit_json "{\"event\":\"step\",\"name\":\"clawdbot\",\"status\":\"start\",\"version\":\"${CLAWDBOT_VERSION}\"}"
   log "Installing Clawdbot (${CLAWDBOT_VERSION})..."
+  require_bin git
   "$(npm_bin)" install -g --prefix "$PREFIX" "clawdbot@${CLAWDBOT_VERSION}"
+  rm -f "${PREFIX}/bin/clawdbot"
+  cat > "${PREFIX}/bin/clawdbot" <<EOF
+#!/usr/bin/env bash
+set -euo pipefail
+exec "${PREFIX}/tools/node/bin/node" "${PREFIX}/lib/node_modules/clawdbot/dist/entry.js" "\$@"
+EOF
+  chmod +x "${PREFIX}/bin/clawdbot"
   emit_json "{\"event\":\"step\",\"name\":\"clawdbot\",\"status\":\"ok\"}"
 }
 
@@ -184,7 +192,7 @@ main() {
   local installed_version
   installed_version="$(resolve_clawdbot_version)"
   if [[ -n "$installed_version" ]]; then
-    emit_json "{\"event\":\"done\",\"ok\":true,\"version\":\"${installed_version//"/\\\"}\"}" 
+    emit_json "{\"event\":\"done\",\"ok\":true,\"version\":\"${installed_version//\"/\\\"}\"}"
     log "Clawdbot installed (${installed_version})."
   else
     emit_json "{\"event\":\"done\",\"ok\":true}"
