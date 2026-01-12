@@ -54,6 +54,71 @@ require_bin() {
   fi
 }
 
+has_sudo() {
+  command -v sudo >/dev/null 2>&1
+}
+
+is_root() {
+  [[ "$(id -u)" -eq 0 ]]
+}
+
+ensure_git() {
+  if command -v git >/dev/null 2>&1; then
+    emit_json '{"event":"step","name":"git","status":"ok"}'
+    return
+  fi
+
+  emit_json '{"event":"step","name":"git","status":"start"}'
+  log "Installing Git (required for npm installs)..."
+
+  case "$(os_detect)" in
+    linux)
+      if command -v apt-get >/dev/null 2>&1; then
+        if is_root; then
+          apt-get update -y
+          apt-get install -y git
+        elif has_sudo; then
+          sudo apt-get update -y
+          sudo apt-get install -y git
+        else
+          fail "Git missing and sudo unavailable. Install git and retry."
+        fi
+      elif command -v dnf >/dev/null 2>&1; then
+        if is_root; then
+          dnf install -y git
+        elif has_sudo; then
+          sudo dnf install -y git
+        else
+          fail "Git missing and sudo unavailable. Install git and retry."
+        fi
+      elif command -v yum >/dev/null 2>&1; then
+        if is_root; then
+          yum install -y git
+        elif has_sudo; then
+          sudo yum install -y git
+        else
+          fail "Git missing and sudo unavailable. Install git and retry."
+        fi
+      else
+        fail "Git missing and package manager not found. Install git and retry."
+      fi
+      ;;
+    darwin)
+      if command -v brew >/dev/null 2>&1; then
+        brew install git
+      else
+        fail "Git missing. Install Xcode Command Line Tools or Homebrew Git, then retry."
+      fi
+      ;;
+  esac
+
+  if ! command -v git >/dev/null 2>&1; then
+    fail "Git install failed. Install git manually and retry."
+  fi
+
+  emit_json '{"event":"step","name":"git","status":"ok"}'
+}
+
 parse_args() {
   while [[ $# -gt 0 ]]; do
     case "$1" in
@@ -236,6 +301,7 @@ main() {
   export PATH
 
   install_node
+  ensure_git
   if [[ "$SET_NPM_PREFIX" -eq 1 ]]; then
     fix_npm_prefix_if_needed
   fi
