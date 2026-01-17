@@ -708,8 +708,6 @@ resolve_beta_version() {
 }
 
 install_clawdbot() {
-    echo -e "${WARN}→${NC} Installing Clawdbot..."
-
     if [[ "$USE_BETA" == "1" ]]; then
         local beta_version=""
         beta_version="$(resolve_beta_version || true)"
@@ -724,6 +722,14 @@ install_clawdbot() {
 
     if [[ -z "${CLAWDBOT_VERSION}" ]]; then
         CLAWDBOT_VERSION="latest"
+    fi
+
+    local resolved_version=""
+    resolved_version="$(npm view "clawdbot@${CLAWDBOT_VERSION}" version 2>/dev/null || true)"
+    if [[ -n "$resolved_version" ]]; then
+        echo -e "${WARN}→${NC} Installing Clawdbot ${INFO}${resolved_version}${NC}..."
+    else
+        echo -e "${WARN}→${NC} Installing Clawdbot (${INFO}${CLAWDBOT_VERSION}${NC})..."
     fi
 
     if [[ "${CLAWDBOT_VERSION}" == "latest" ]]; then
