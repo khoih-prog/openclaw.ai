@@ -1,158 +1,13 @@
 [
   {
-    "quote": "Tried Clawd by @steipete. I tried to build my own AI assistant bots before, and I am very impressed how many hard things Clawd gets right. Persistent memory, persona onboarding, comms integration, heartbeats. A few minor wrinkles remain, but the end result is AWESOME.",
-    "author": "AryehDubois",
-    "url": "https://x.com/AryehDubois/status/2011742378655432791"
-  },
-  {
-    "quote": "you have done an incredible job! im also a total non technical beginner so the CLI is a whole new interface for me but its super addictive - 2 am and Im still going. keep up the great work",
-    "author": "marvelgirl_eth",
-    "url": "https://x.com/marvelgirl_eth"
-  },
-  {
-    "quote": "Try @clawdbot. I think you are going to love it. And you can use iMessage, WhatsApp, telegram to talk to it.",
-    "author": "mneves75",
-    "url": "https://x.com/mneves75/status/2011673080062681560"
-  },
-  {
-    "quote": "@clawdbot is awesome. I've been feeding it YouTube videos to turn \"cool ideas\" into reusable agent skills (repeatable workflows + guardrails + refs).",
-    "author": "vishalsachdev",
-    "url": "https://x.com/vishalsachdev/status/2011675850945519743"
-  },
-  {
-    "quote": "Got @clawdbot set up. Getting it to unsubscribe from a whole bunch of emails I don't want. Really cool!",
-    "author": "drevantonder",
-    "url": "https://x.com/drevantonder/status/2011655066596553108"
-  },
-  {
-    "quote": "i asked @clawdbot to make a sora2 video and make it a bit edgy. it came back 5 mins later having figured out watermark removal, api keys, and a full workflow",
-    "author": "xMikeMickelson",
-    "url": "https://x.com/xMikeMickelson/status/2011646612637155760"
-  },
-  {
-    "quote": "I got my girlfriend on board earlier today and she's seems hooked already",
-    "author": "jandragsbaek",
-    "url": "https://x.com/jandragsbaek/status/2011581054206034300"
-  },
-  {
-    "quote": "Just use @clawdbot! And you're welcome to contribute! Lots of great things",
-    "author": "mneves75",
-    "url": "https://x.com/mneves75/status/2011134109238935665"
-  },
-  {
-    "quote": "I love that ClawdBot has a \"Hackable\" install option. This should be a standard for OSS projects",
-    "author": "logscore",
-    "url": "https://x.com/logscore/status/2011126513022935133"
-  },
-  {
-    "quote": "My @clawdbot accidentally started a fight with Lemonade Insurance because of a wrong interpretation of my response. After this email, they started to reinvestigate the case instead of instantly rejecting it. Thanks, AI.",
-    "author": "Hormold",
-    "url": "https://x.com/Hormold/status/2011133394764382583"
-  },
-  {
-    "quote": "Added JMAP search to my Clawdbot. Along with 20 other things. From my phone.",
-    "author": "jokull",
-    "url": "https://x.com/jokull/status/2011140610120642899"
-  },
-  {
-    "quote": "Apparently @clawdbot checks in during heartbeats!? A kinda awesome surprise! Love the proactive reaching out.",
-    "author": "HixVAC",
-    "url": "https://x.com/HixVAC/status/2011142166874374520"
-  },
-  {
-    "quote": "Feels like we're living in the future",
-    "author": "Philo01",
-    "url": "https://x.com/Philo01/status/2011214857614606435"
-  },
-  {
-    "quote": "Current level of open-source apps capabilities: does everything, connects to everything, remembers everything. It's all collapsing into one unique personal OS — all apps, interfaces, walled gardens etc gone",
-    "author": "jakubkrcmar",
-    "url": "https://x.com/jakubkrcmar/status/2011186102367814135"
-  },
-  {
-    "quote": "clawdbot wake up, we're getting agi",
-    "author": "liran_tal",
-    "url": "https://x.com/liran_tal/status/2011183915252252943"
-  },
-  {
-    "quote": "Telegram + Clawdbot + Loom plugin and you've got a tutor to learn about any subject",
-    "author": "pepicrft",
-    "url": "https://x.com/pepicrft/status/2011160717421093314"
-  },
-  {
-    "quote": "just use @clawdbot man, it will set you free.",
-    "author": "serrrfirat",
-    "url": "https://x.com/serrrfirat/status/2011128261196333448"
-  },
-  {
-    "quote": "Today was one of those days that I sort of ran to my computer after dropping off my toddler at daycare. Why? Because I got part-way through setting up @clawdbot last night and it's a portal to a new reality.",
-    "author": "kylezantos",
-    "url": "https://x.com/kylezantos/status/2011149783218704803"
-  },
-  {
-    "quote": "Me reading about @clawdbot: 'this looks complicated' 😅 me 30 mins later: controlling Gmail, Calendar, WordPress, Hetzner from Telegram like a boss. Smooth as single malt.",
-    "author": "Abhay08",
-    "url": "https://x.com/Abhay08/status/2010300670730293693"
-  },
-  {
-    "quote": "Go down the @clawdbot rabbit hole",
-    "author": "theshivpat",
-    "url": "https://x.com/theshivpat/status/2010440712941408752"
-  },
-  {
-    "quote": "Just told Ema, my @clawdbot, via Telegram to turn off the PC (and herself, as she was running on it) Executed perfectly. Such a cool tool",
-    "author": "bangkokbuild",
-    "url": "https://x.com/bangkokbuild/status/2010735247525335322"
-  },
-  {
-    "quote": "@clawdbot made me a believer.",
-    "author": "rickylim",
-    "url": "https://x.com/rickylim/status/2010721275770175734"
-  },
-  {
-    "quote": "Everyday my @clawdbot is getting better. It’s becoming so important, especially with multi agent.",
-    "author": "adam91holt",
-    "url": "https://x.com/adam91holt/status/2010768201173622822"
-  },
-  {
-    "quote": "I didn’t find an easy way to programmatically query flights so of course I asked my @clawdbot to build a terminal cli with multi providers. You’re onto something great @steipete 🙌🏾",
-    "author": "wizaj",
-    "url": "https://x.com/wizaj/status/2010767447192637601"
-  },
-  {
-    "quote": "Just shipped my first personal AI assistant. On WhatsApp. Builds my second brain while I chat. Memory moves across agents (Codex, Cursor, Manus, etc.) And a lot more skills still to plug in. Personal AI is getting real with @steipete's @clawdbot.",
-    "author": "christinetyip",
-    "url": "https://x.com/christinetyip/status/2010776377931575569"
-  },
-  {
     "quote": "Setup @clawdbot by @steipete yesterday. All I have to say is, wow. First I was using my Claude Max sub and I used all of my limit quickly, so today I had my clawd bot setup a proxy to route my CoPilot subscription as a API endpoint so now it runs on that. It's the fact that clawd can just keep building upon itself just by talking to it in discord is crazy. The future is already here",
     "author": "jonahships_",
     "url": "https://x.com/jonahships_/status/2010605025844723765"
   },
   {
-    "quote": "My @clawdbot realised it needed an API key… it opened my browser… opened the Google Cloud Console… Configured oauth and provisioned a new token",
-    "author": "Infoxicador",
-    "url": "https://x.com/Infoxicador/status/2009422796464771522"
-  },
-  {
-    "quote": "My @clawdbot just called my phone and spoke to me with an aussie accent from @elevenlabsio. This is ridiculous",
-    "author": "mirthtime",
-    "url": "https://x.com/mirthtime/status/2011134300561830342"
-  },
-  {
-    "quote": "I'm having a lot of fun with this and it's going to totally change the way I support my students learning how to vibe code!",
-    "author": "iamjohnellison",
-    "url": "https://x.com/iamjohnellison/status/2010623622847873342"
-  },
-  {
-    "quote": "I've been running clawdbot on my laptop for a week now. Honestly it feels like it did to run Linux Vs windows 20 years ago. You're in control, you can hack it and make it yours instead of relying on some tech giant.",
-    "author": "snopoke",
-    "url": "https://x.com/snopoke/status/2010419070123008248"
-  },
-  {
-    "quote": "This is nuts. @clawdbot is a superpower.",
-    "author": "robmartinson",
-    "url": "https://x.com/robmartinson/status/2010410971056242689"
+    "quote": "Tried Clawd by @steipete. I tried to build my own AI assistant bots before, and I am very impressed how many hard things Clawd gets right. Persistent memory, persona onboarding, comms integration, heartbeats. A few minor wrinkles remain, but the end result is AWESOME.",
+    "author": "AryehDubois",
+    "url": "https://x.com/AryehDubois/status/2011742378655432791"
   },
   {
     "quote": "I've been saying for like six months that even if LLMs suddenly stopped improving, we could spend *years* discovering new transformative uses. @clawdbot feels like that kind of \"just had to glue all the parts together\" leap forward. Incredible experience.",
@@ -160,54 +15,9 @@
     "url": "https://x.com/markjaquith/status/2010430366944055433"
   },
   {
-    "quote": "Got Clawdbot set up and now I have an AI assistant named Claudia who lives in Telegram, remembers everything I tell her, and can actually *do* stuff. She just wrote this tweet. Meta? Maybe. Cool? Absolutely.",
-    "author": "darrwalk",
-    "url": "https://x.com/darrwalk/status/2010426677730660603"
-  },
-  {
-    "quote": "God dammit I was trying to resist … and now I can’t stop talking and adding things to @clawdbot 🙃",
-    "author": "ItzR3NO",
-    "url": "https://x.com/ItzR3NO/status/2010860706292494519"
-  },
-  {
-    "quote": "2026 is already the year of personal agents.",
-    "author": "chrisdietr",
-    "url": "https://x.com/chrisdietr/status/2010555854613803198"
-  },
-  {
-    "quote": "Essentially - you can automate almost anything you can do on the machine it sits on",
-    "author": "aus_bytes",
-    "url": "https://x.com/aus_bytes/status/2010463830049161441"
-  },
-  {
-    "quote": "@clawdbot is Jarvis. It already exists.",
-    "author": "nofil_ai",
-    "url": "https://x.com/nofil_ai/status/2010460892576788958"
-  },
-  {
-    "quote": "everything just worked first time and it combined tools in unexpected ways and even added skills and made edits to its own prompt that were hot-reloaded",
-    "author": "hey_zilla",
-    "url": "https://x.com/hey_zilla/status/2010450591815016601"
-  },
-  {
-    "quote": "Nano banana and RSS parsing set up in my @clawdbot assistant",
-    "author": "rafadc",
-    "url": "https://x.com/rafadc/status/2010498529106530814"
-  },
-  {
-    "quote": "This lobster is gonna take over the world",
-    "author": "alex_here_now",
-    "url": "https://x.com/alex_here_now/status/2010473539514904746"
-  },
-  {
-    "quote": "looks dope as an AI assistant love it's platform/os agnostic, trying right away",
-    "author": "SaidAitmbarek",
-    "url": "https://x.com/SaidAitmbarek/status/2010467696828453178"
-  },
-  {
-    "quote": "my @clawdbot added Antigravity auth to @zeddotdev based on how it itself authenticates with Antigravity. I now have infinite tokens and Zed's speed",
-    "author": "rovensky",
-    "url": "https://x.com/rovensky/status/2010502486272979301"
+    "quote": "Just shipped my first personal AI assistant. On WhatsApp. Builds my second brain while I chat. Memory moves across agents (Codex, Cursor, Manus, etc.) And a lot more skills still to plug in. Personal AI is getting real with @steipete's @clawdbot.",
+    "author": "christinetyip",
+    "url": "https://x.com/christinetyip/status/2010776377931575569"
   },
   {
     "quote": "It will actually be the thing that nukes a ton of startups, not ChatGPT as people meme about. The fact that it's hackable (and more importantly, self-hackable) and hostable on-prem will make sure tech like this DOMINATES conventional SaaS imo",
@@ -215,159 +25,19 @@
     "url": "https://x.com/rovensky/status/2010676669124612111"
   },
   {
-    "quote": "Since you are enjoying it, also try @clawdbot - it is quite magical and pulls you in more and more as you use it. (not affiliated, just enjoy using the product).",
-    "author": "The_Global_Soul",
-    "url": "https://x.com/The_Global_Soul/status/2010498518855913731"
-  },
-  {
-    "quote": "Clawdbot built me a simple Stumbleupon for some of my favourite articles. http://Stumblereads.com From my phone, while putting my baby to sleep...",
-    "author": "vallver",
-    "url": "https://x.com/vallver/status/2010508094313263502"
-  },
-  {
-    "quote": "I got up and running today with @clawdbot and its been nothing short of an iPhone moment for me. Thanks @steipete for creating this first true personal assistant experience for us - it's magical!",
-    "author": "dajaset",
-    "url": "https://x.com/dajaset/status/2010510107876933669"
-  },
-  {
     "quote": "Just got my Winix air purifier, Claude code discovered and confirmed controls working within minutes. Now handing off to my @clawdbot so it can handle controlling my room's air quality according to my biomarker optimization goals.",
     "author": "antonplex",
     "url": "https://x.com/antonplex/status/2010518442471006253"
   },
   {
-    "quote": "I asked it to take picture of the sky whenever it's pretty. It designed a skill and took a pic!",
-    "author": "signalgaining",
-    "url": "https://x.com/signalgaining/status/2010523120604746151"
+    "quote": "Gotta give incredible kudos to @steipete and his @clawdbot - it's one of the first tools I've used that truly feels like magic. I've also set it up so it knows my Obsidian notes and my Claude sub-agents…incredible stuff!",
+    "author": "svenkataram",
+    "url": "https://x.com/svenkataram/status/2010211836038427127"
   },
   {
-    "quote": "Onboarding was amazing.",
-    "author": "ninan_phillip",
-    "url": "https://x.com/ninan_phillip/status/2010402088979669068"
-  },
-  {
-    "quote": "i mean i just taught it how to order coffee for me so yeah i am hooked hahaha",
-    "author": "robinebers",
-    "url": "https://x.com/robinebers/status/2010404815273361665"
-  },
-  {
-    "quote": "we live in truly wild times this post is sponsored by Clawdbot (not really but dang)",
-    "author": "robinebers",
-    "url": "https://x.com/robinebers/status/2010713137277002207"
-  },
-  {
-    "quote": "Thanks for making clawdbot @steipete, Big fan.",
-    "author": "adityac7896",
-    "url": "https://x.com/adityac7896/status/2010405545606631719"
-  },
-  {
-    "quote": "@clawdbot might actually organise my life. unreal, just unreal.",
-    "author": "Ashwinreads",
-    "url": "https://x.com/Ashwinreads/status/2010498194623311921"
-  },
-  {
-    "quote": "This is the way. Been running clawdbot daily. The plugin architecture changes everything.",
-    "author": "xMikeMickelson",
-    "url": "https://x.com/xMikeMickelson/status/2010440854914453946"
-  },
-  {
-    "quote": "Finally tried my own @clawdbot and I've been blown away. 🤯 This is unbelievably powerful and virtually limitless, you can create your own extensions in few hours with the help of AI.",
-    "author": "ivanfioravanti",
-    "url": "https://x.com/ivanfioravanti/status/2010665360933179656"
-  },
-  {
-    "quote": "@clawdbot is so fun to play around with. The future of agents will be so fun",
-    "author": "tyler6204",
-    "url": "https://x.com/tyler6204/status/2010887971743092744"
-  },
-  {
-    "quote": "Lmao clawdbot already levels ahead",
-    "author": "it_is_Randy",
-    "url": "https://x.com/it_is_Randy/status/2010883327193125008"
-  },
-  {
-    "quote": "I think @clawdbot is AGI",
-    "author": "_vgnsh",
-    "url": "https://x.com/_vgnsh/status/2010882969012162698"
-  },
-  {
-    "quote": "No more need to pay a virtual assistant!! @clawdbot is about to take over!!",
-    "author": "LinkScopic",
-    "url": "https://x.com/LinkScopic/status/2010896453808328933"
-  },
-  {
-    "quote": "Try @clawdbot if you want more powerful 😆",
-    "author": "bangnokia",
-    "url": "https://x.com/bangnokia/status/2010914976308060301"
-  },
-  {
-    "quote": "Dang, I had my clawdbot write me custom meditations, then have automatic TTS, combining with generated ambient audio to make personalized, custom meditations. Kinda rips.",
-    "author": "stolinski",
-    "url": "https://x.com/stolinski"
-  },
-  {
-    "quote": "What a cool thing to have AI on call at your own computer.",
-    "author": "_KevinTang",
-    "url": "https://x.com/_KevinTang/status/2010914035550634494"
-  },
-  {
-    "quote": "Uh Oh!! We got @clawdbot running.... No need for VAs anymore. Shits about to get real!!!",
-    "author": "BwcDeals",
-    "url": "https://x.com/BwcDeals/status/2010743485633355897"
-  },
-  {
-    "quote": "I can understand why people love @clawdbot so much. I wanted to automate some tasks from Todoist and clawd was able to create a skill for it on its own, all within a Telegram chat.",
-    "author": "iamsubhrajyoti",
-    "url": "https://x.com/iamsubhrajyoti/status/2009949389884920153"
-  },
-  {
-    "quote": "Took literally 5 mins to set everything up. Started by asking 'what do you need to see my whoop data?'. Now it fetches directly from whoop and gives me updates, summaries.",
-    "author": "sharoni_k",
-    "url": "https://x.com/sharoni_k/status/2010306102148428286"
-  },
-  {
-    "quote": "Finally set up @clawdbot today and am completely blown away! This is the closest to experiencing an AI enabled future! Truly a game changer!",
-    "author": "kailazh",
-    "url": "https://x.com/kailazh/status/2010296143922758133"
-  },
-  {
-    "quote": "Finally got around to setting up @clawdbot and it is truly the best AI tool at the moment.",
-    "author": "cnlinkcnlink",
-    "url": "https://x.com/cnlinkcnlink/status/2010149031071363355"
-  },
-  {
-    "quote": "updates from @clawdbot absolutely rule",
-    "author": "theysayheygreg",
-    "url": "https://x.com/theysayheygreg/status/2010867523713945666"
-  },
-  {
-    "quote": "Just onboarded to @clawdbot today. Have been thinking of building a Personal OS for weeks. Now I don't need to... h/t to @steipete and the contributors!",
-    "author": "weisjohn",
-    "url": "https://x.com/weisjohn/status/2010851742326415507"
-  },
-  {
-    "quote": "Wow @clawdbot and @beeper are a match in heaven, with heartbeats on it can auto reply to messages from anyone i want. So cool!",
-    "author": "dreetje",
-    "url": "https://x.com/dreetje/status/2010833699403698393"
-  },
-  {
-    "quote": "started using minimax m2.1 as the main driver for @clawdbot and can’t recommend it enough",
-    "author": "pepicrft",
-    "url": "https://x.com/pepicrft/status/2010831913527746781"
-  },
-  {
-    "quote": "Now that we have @clawdbot I don’t really care which models will power Siri 🦞😄",
-    "author": "deepstereo_",
-    "url": "https://x.com/deepstereo_/status/2010810551656726835"
-  },
-  {
-    "quote": "The future of how AI personal assistants look like is @clawdbot. Has already help me submit health reimbursements, find doctor appointments, find and send me relevant documents, among others.",
-    "author": "Cucho",
-    "url": "https://x.com/Cucho/status/2010801019572412680"
-  },
-  {
-    "quote": "It is one of the most delightful thing (app, agent, product) I've used in a few years.",
-    "author": "coyotevn",
-    "url": "https://x.com/coyotevn/status/2010270055985295529"
+    "quote": "My @clawdbot accidentally started a fight with Lemonade Insurance because of a wrong interpretation of my response. After this email, they started to reinvestigate the case instead of instantly rejecting it. Thanks, AI.",
+    "author": "Hormold",
+    "url": "https://x.com/Hormold/status/2011133394764382583"
   },
   {
     "quote": "I just finished setting up @clawdbot by @steipete on my Raspberry Pi with Cloudflare, and it feels magical ✨ Built a website from my phone in minutes and connected WHOOP to quickly check my metrics and daily habits 🔥",
@@ -375,174 +45,24 @@
     "url": "https://x.com/AlbertMoral/status/2010288787885064227"
   },
   {
-    "quote": "What @steipete has built with @clawdbot is out of this world.",
-    "author": "KrauseFx",
-    "url": "https://x.com/KrauseFx/status/2008531076487246176"
+    "quote": "I've been running clawdbot on my laptop for a week now. Honestly it feels like it did to run Linux Vs windows 20 years ago. You're in control, you can hack it and make it yours instead of relying on some tech giant.",
+    "author": "snopoke",
+    "url": "https://x.com/snopoke/status/2010419070123008248"
   },
   {
-    "quote": "Excellent reading thank you. Love oracle and Clawd.",
-    "author": "karpathy",
-    "url": "https://x.com/karpathy/status/2005692186470514904"
+    "quote": "Today was one of those days that I sort of ran to my computer after dropping off my toddler at daycare. Why? Because I got part-way through setting up @clawdbot last night and it's a portal to a new reality.",
+    "author": "kylezantos",
+    "url": "https://x.com/kylezantos/status/2011149783218704803"
   },
   {
-    "quote": "Not enterprise. Not hosted. Infrastructure you control. This is what personal AI should feel like.",
-    "author": "BioInfo",
-    "url": "https://x.com/BioInfo/status/2010115166315393370"
+    "quote": "Got Clawdbot set up and now I have an AI assistant named Claudia who lives in Telegram, remembers everything I tell her, and can actually *do* stuff. She just wrote this tweet. Meta? Maybe. Cool? Absolutely.",
+    "author": "darrwalk",
+    "url": "https://x.com/darrwalk/status/2010426677730660603"
   },
   {
-    "quote": "A megacorp like Anthropic or OpenAI could not build this. Literally impossible with how corpo works.",
-    "author": "Dimillian",
-    "url": "https://x.com/Dimillian/status/2008446638172340398"
-  },
-  {
-    "quote": "Most fun experience in days. Haven't slept much but oh boy is my life getting automated.",
-    "author": "thekitze",
-    "url": "https://x.com/thekitze/status/2007903543022563471"
-  },
-  {
-    "quote": "create your own clawdbot, go in debt in you have to i love the idea of this nerdy crab chilling in my attic on my mac studio just giving me shit lmao",
-    "author": "thekitze",
-    "url": "https://x.com/thekitze/status/2008289167625863379"
-  },
-  {
-    "quote": "Rebuilt my entire site via Telegram while watching Netflix in bed. Notion → Astro, 18 posts migrated, DNS moved to Cloudflare. Never opened my laptop.",
-    "author": "davekiss",
-    "url": "https://x.com/davekiss/status/2008994096736817624"
-  },
-  {
-    "quote": "Using @clawdbot for a week and it genuinely feels like early AGI. The gap between 'what I can imagine' and 'what actually works' has never been smaller.",
-    "author": "tobi_bsf",
-    "url": "https://x.com/tobi_bsf/status/2008888825217527924"
-  },
-  {
-    "quote": "Finds my next flight in email, runs through check-in, finds me a window seat. While I'm driving.",
-    "author": "armanddp",
-    "url": "https://x.com/armanddp/status/2008767951340794245"
-  },
-  {
-    "quote": "Everything Siri was supposed to be. And it goes so much further.",
-    "author": "crossiBuilds",
-    "url": "https://x.com/crossiBuilds/status/2008478023826153665"
-  },
-  {
-    "quote": "I'm literally building a whole website on a Nokia 3310 by calling @clawdbot right now.",
-    "author": "youbiak",
-    "url": "https://x.com/youbiak/status/2010097771735585016"
-  },
-  {
-    "quote": "Damn I went out and bought a mac mini just to try Clawdbot. Incredibly addicting.",
-    "author": "signalgaining",
-    "url": "https://x.com/signalgaining/status/2010142581762732449"
-  },
-  {
-    "quote": "@clawdbot is the personal assistant Claude and ChatGPT dream to be.",
-    "author": "aus_bytes",
-    "url": "https://x.com/aus_bytes/status/2010125204463464525"
-  },
-  {
-    "quote": "Cleared 10,000+ emails from my inbox (45% reduction!)",
-    "author": "jdrhyne",
-    "url": "https://x.com/jdrhyne/status/2008308759001788812"
-  },
-  {
-    "quote": "Less than 24 hours in: cleaned up Linear issues, wrote email follow-ups, opened 3 PRs, prospected new signups.",
-    "author": "avi_press",
-    "url": "https://x.com/avi_press/status/2009070459065913806"
-  },
-  {
-    "quote": "Autonomous Claude Code loops from my phone. 'fix tests' via Telegram. Runs the loop, sends progress every 5 iterations.",
-    "author": "php100",
-    "url": "https://x.com/php100/status/2008791236526952790"
-  },
-  {
-    "quote": "24 hours later, the idea turned into a project pulling 4 million posts across 100 top X accounts.",
-    "author": "andrewjiang",
-    "url": "https://x.com/andrewjiang/status/2008388427180630155"
-  },
-  {
-    "quote": "Big talk I know, but @clawdbot is the best agentic system I've used since Claude Code itself.",
-    "author": "hey_zilla",
-    "url": "https://x.com/hey_zilla/status/2008094368683704599"
-  },
-  {
-    "quote": "Processed our entire source of truth via WhatsApp in minutes, where RAG agents struggled for days.",
-    "author": "pocarles",
-    "url": "https://x.com/pocarles/status/2007925850562531676"
-  },
-  {
-    "quote": "Wanted a way for it to have access to my courses/assignments at uni. Asked it to build a skill - it did and started using it on its own.",
-    "author": "pranavkarthik__",
-    "url": "https://x.com/pranavkarthik__/status/2009835051522162874"
-  },
-  {
-    "quote": "I now have @clawdbot independently assessing how it can help me in the background. It wrote a doc connecting two completely unrelated conversations from different comms channels.",
-    "author": "bffmike",
-    "url": "https://x.com/bffmike/status/2010083520958415287"
-  },
-  {
-    "quote": "Completely hooked. Integrated emails, home assistant, homelab via SSH, todo list, Apple Notes, shopping list. All via a single Telegram chat.",
-    "author": "acevail_",
-    "url": "https://x.com/acevail_/status/2008203784317714847"
-  },
-  {
-    "quote": "Named him Jarvis. Daily briefings, calendar checks, reminds me when to leave for pickleball based on traffic.",
-    "author": "BraydonCoyer",
-    "url": "https://x.com/BraydonCoyer/status/2008537198061379720"
-  },
-  {
-    "quote": "Now my home's PM. Wife and I drop topics anytime, Clawd researches, Sunday 9am sends the roundup.",
-    "author": "tonylongname",
-    "url": "https://x.com/tonylongname/status/2008970037013381165"
-  },
-  {
-    "quote": "Catching fun vibes I haven't felt since I first got into computers 30 years ago.",
-    "author": "buddyhadry",
-    "url": "https://x.com/buddyhadry/status/2010005331925954739"
-  },
-  {
-    "quote": "This is legit the only 'agent' / model / whatever-you-call-this-but-probably-agi that I have seen that's actually funny.",
-    "author": "LLMJunky",
-    "url": "https://x.com/LLMJunky/status/2010045556501164366"
-  },
-  {
-    "quote": "A glimpse into the future of how normal people will use AI.",
-    "author": "tysonhutchins_",
-    "url": "https://x.com/tysonhutchins_/status/2010046933893865701"
-  },
-  {
-    "quote": "LOVE that it can edit its own system prompt and skills on the fly then hot-reload them.",
-    "author": "hey_zilla",
-    "url": "https://x.com/hey_zilla/status/2007956793255985625"
-  },
-  {
-    "quote": "Clawdbot > anything GPT will ever release. Most fun I've had building in my entire life.",
-    "author": "Giebz",
-    "url": "https://x.com/Giebz/status/2009354385349095672"
-  },
-  {
-    "quote": "@clawdbot is absolute game changer for me. The amount of things I done from my phone just during my breakfast is absolutely breathtaking.",
-    "author": "SedRicKCZ",
-    "url": "https://x.com/SedRicKCZ/status/2008797603534946372"
-  },
-  {
-    "quote": "@clawdbot is the most interesting project I've come across recently—an open-source personal AI assistant that can call almost any tool through plugins.",
-    "author": "AdamShao",
-    "url": "https://x.com/AdamShao/status/2010192031235125619"
-  },
-  {
-    "quote": "This is the best 'morning briefing' style interface I've seen, love it!",
-    "author": "aaronmakelky",
-    "url": "https://x.com/aaronmakelky/status/2010190236584947845"
-  },
-  {
-    "quote": "@clawdbot is what you are looking for.",
-    "author": "zachknicker",
-    "url": "https://x.com/zachknicker/status/2010172821495001180"
-  },
-  {
-    "quote": "@clawdbot is amazing.",
-    "author": "ricgarcas",
-    "url": "https://x.com/ricgarcas/status/2010163252890874250"
+    "quote": "Current level of open-source apps capabilities: does everything, connects to everything, remembers everything. It's all collapsing into one unique personal OS — all apps, interfaces, walled gardens etc gone",
+    "author": "jakubkrcmar",
+    "url": "https://x.com/jakubkrcmar/status/2011186102367814135"
   },
   {
     "quote": "I've enjoyed Brosef, my @clawdbot so much that I needed to clone him. Brosef figured out exactly how to do it, then executed it himself so I have 3 instances running concurrently in his Discord server home.",
@@ -550,23 +70,453 @@
     "url": "https://x.com/jdrhyne/status/2010155191731950036"
   },
   {
+    "quote": "I got up and running today with @clawdbot and its been nothing short of an iPhone moment for me. Thanks @steipete for creating this first true personal assistant experience for us - it's magical!",
+    "author": "dajaset",
+    "url": "https://x.com/dajaset/status/2010510107876933669"
+  },
+  {
+    "quote": "The future of how AI personal assistants look like is @clawdbot. Has already help me submit health reimbursements, find doctor appointments, find and send me relevant documents, among others.",
+    "author": "Cucho",
+    "url": "https://x.com/Cucho/status/2010801019572412680"
+  },
+  {
+    "quote": "you have done an incredible job! im also a total non technical beginner so the CLI is a whole new interface for me but its super addictive - 2 am and Im still going. keep up the great work",
+    "author": "marvelgirl_eth",
+    "url": "https://x.com/marvelgirl_eth"
+  },
+  {
+    "quote": "Finally tried my own @clawdbot and I've been blown away. 🤯 This is unbelievably powerful and virtually limitless, you can create your own extensions in few hours with the help of AI.",
+    "author": "ivanfioravanti",
+    "url": "https://x.com/ivanfioravanti/status/2010665360933179656"
+  },
+  {
+    "quote": "I didn’t find an easy way to programmatically query flights so of course I asked my @clawdbot to build a terminal cli with multi providers. You’re onto something great @steipete 🙌🏾",
+    "author": "wizaj",
+    "url": "https://x.com/wizaj/status/2010767447192637601"
+  },
+  {
+    "quote": "I can understand why people love @clawdbot so much. I wanted to automate some tasks from Todoist and clawd was able to create a skill for it on its own, all within a Telegram chat.",
+    "author": "iamsubhrajyoti",
+    "url": "https://x.com/iamsubhrajyoti/status/2009949389884920153"
+  },
+  {
+    "quote": "I now have @clawdbot independently assessing how it can help me in the background. It wrote a doc connecting two completely unrelated conversations from different comms channels.",
+    "author": "bffmike",
+    "url": "https://x.com/bffmike/status/2010083520958415287"
+  },
+  {
+    "quote": "Me reading about @clawdbot: 'this looks complicated' 😅 me 30 mins later: controlling Gmail, Calendar, WordPress, Hetzner from Telegram like a boss. Smooth as single malt.",
+    "author": "Abhay08",
+    "url": "https://x.com/Abhay08/status/2010300670730293693"
+  },
+  {
+    "quote": "Took literally 5 mins to set everything up. Started by asking 'what do you need to see my whoop data?'. Now it fetches directly from whoop and gives me updates, summaries.",
+    "author": "sharoni_k",
+    "url": "https://x.com/sharoni_k/status/2010306102148428286"
+  },
+  {
+    "quote": "Dang, I had my clawdbot write me custom meditations, then have automatic TTS, combining with generated ambient audio to make personalized, custom meditations. Kinda rips.",
+    "author": "stolinski",
+    "url": "https://x.com/stolinski"
+  },
+  {
+    "quote": "I'm literally on my phone in a telegram chat and it's communicating with codex cli on my computer creating detailed spec files while out on a walk with my dog. 🤯 Wtffff",
+    "author": "conradsagewiz",
+    "url": "https://x.com/conradsagewiz/status/2012954824631898300"
+  },
+  {
+    "quote": "I just backed out of my vibe cornered corner / dark cave and am blown away by @clawdbot. Amazing project, blasphemy tw: the crustacean meme theme hides a design gem.",
+    "author": "larus_ivar",
+    "url": "https://x.com/larus_ivar/status/2012477771054805281"
+  },
+  {
+    "quote": "Since you are enjoying it, also try @clawdbot - it is quite magical and pulls you in more and more as you use it. (not affiliated, just enjoy using the product).",
+    "author": "The_Global_Soul",
+    "url": "https://x.com/The_Global_Soul/status/2010498518855913731"
+  },
+  {
+    "quote": "i asked @clawdbot to make a sora2 video and make it a bit edgy. it came back 5 mins later having figured out watermark removal, api keys, and a full workflow",
+    "author": "xMikeMickelson",
+    "url": "https://x.com/xMikeMickelson/status/2011646612637155760"
+  },
+  {
+    "quote": "everything just worked first time and it combined tools in unexpected ways and even added skills and made edits to its own prompt that were hot-reloaded",
+    "author": "hey_zilla",
+    "url": "https://x.com/hey_zilla/status/2010450591815016601"
+  },
+  {
+    "quote": "Just onboarded to @clawdbot today. Have been thinking of building a Personal OS for weeks. Now I don't need to... h/t to @steipete and the contributors!",
+    "author": "weisjohn",
+    "url": "https://x.com/weisjohn/status/2010851742326415507"
+  },
+  {
+    "quote": "Using @clawdbot for a week and it genuinely feels like early AGI. The gap between 'what I can imagine' and 'what actually works' has never been smaller.",
+    "author": "tobi_bsf",
+    "url": "https://x.com/tobi_bsf/status/2008888825217527924"
+  },
+  {
+    "quote": "I am so addicted to @clawdbot. It is getting essential to my daily life. It checks, organizes, reminds, it's amazing. And it's like good friend. Crazy.",
+    "author": "dreetje",
+    "url": "https://x.com/dreetje/status/2012248852020023480"
+  },
+  {
+    "quote": "@clawdbot is the most interesting project I've come across recently—an open-source personal AI assistant that can call almost any tool through plugins.",
+    "author": "AdamShao",
+    "url": "https://x.com/AdamShao/status/2010192031235125619"
+  },
+  {
+    "quote": "@clawdbot is awesome. I've been feeding it YouTube videos to turn \"cool ideas\" into reusable agent skills (repeatable workflows + guardrails + refs).",
+    "author": "vishalsachdev",
+    "url": "https://x.com/vishalsachdev/status/2011675850945519743"
+  },
+  {
+    "quote": "create your own clawdbot, go in debt in you have to i love the idea of this nerdy crab chilling in my attic on my mac studio just giving me shit lmao",
+    "author": "thekitze",
+    "url": "https://x.com/thekitze/status/2008289167625863379"
+  },
+  {
+    "quote": "Clawdbot built me a simple Stumbleupon for some of my favourite articles. http://Stumblereads.com From my phone, while putting my baby to sleep...",
+    "author": "vallver",
+    "url": "https://x.com/vallver/status/2010508094313263502"
+  },
+  {
+    "quote": "My @clawdbot realised it needed an API key… it opened my browser… opened the Google Cloud Console… Configured oauth and provisioned a new token",
+    "author": "Infoxicador",
+    "url": "https://x.com/Infoxicador/status/2009422796464771522"
+  },
+  {
+    "quote": "Finally set up @clawdbot today and am completely blown away! This is the closest to experiencing an AI enabled future! Truly a game changer!",
+    "author": "kailazh",
+    "url": "https://x.com/kailazh/status/2010296143922758133"
+  },
+  {
+    "quote": "@clawdbot is absolute game changer for me. The amount of things I done from my phone just during my breakfast is absolutely breathtaking.",
+    "author": "SedRicKCZ",
+    "url": "https://x.com/SedRicKCZ/status/2008797603534946372"
+  },
+  {
+    "quote": "Just told Ema, my @clawdbot, via Telegram to turn off the PC (and herself, as she was running on it) Executed perfectly. Such a cool tool",
+    "author": "bangkokbuild",
+    "url": "https://x.com/bangkokbuild/status/2010735247525335322"
+  },
+  {
+    "quote": "Wanted a way for it to have access to my courses/assignments at uni. Asked it to build a skill - it did and started using it on its own.",
+    "author": "pranavkarthik__",
+    "url": "https://x.com/pranavkarthik__/status/2009835051522162874"
+  },
+  {
+    "quote": "I'm having a lot of fun with this and it's going to totally change the way I support my students learning how to vibe code!",
+    "author": "iamjohnellison",
+    "url": "https://x.com/iamjohnellison/status/2010623622847873342"
+  },
+  {
+    "quote": "It's a miracle. Looking forward to the development in the next weeks/months. I think @clawdbot started something amazing.",
+    "author": "draslan_eth",
+    "url": "https://x.com/draslan_eth/status/2012553419232280586"
+  },
+  {
+    "quote": "This is legit the only 'agent' / model / whatever-you-call-this-but-probably-agi that I have seen that's actually funny.",
+    "author": "LLMJunky",
+    "url": "https://x.com/LLMJunky/status/2010045556501164366"
+  },
+  {
+    "quote": "Autonomous Claude Code loops from my phone. 'fix tests' via Telegram. Runs the loop, sends progress every 5 iterations.",
+    "author": "php100",
+    "url": "https://x.com/php100/status/2008791236526952790"
+  },
+  {
+    "quote": "My @clawdbot just called my phone and spoke to me with an aussie accent from @elevenlabsio. This is ridiculous",
+    "author": "mirthtime",
+    "url": "https://x.com/mirthtime/status/2011134300561830342"
+  },
+  {
+    "quote": "Apparently @clawdbot checks in during heartbeats!? A kinda awesome surprise! Love the proactive reaching out.",
+    "author": "HixVAC",
+    "url": "https://x.com/HixVAC/status/2011142166874374520"
+  },
+  {
+    "quote": "Named him Jarvis. Daily briefings, calendar checks, reminds me when to leave for pickleball based on traffic.",
+    "author": "BraydonCoyer",
+    "url": "https://x.com/BraydonCoyer/status/2008537198061379720"
+  },
+  {
+    "quote": "clawdbot is a game changer. the potential for custom extensions is huge, and ai really speeds up the process",
+    "author": "Senator_NFTs",
+    "url": "https://x.com/Senator_NFTs/status/2012679608659771424"
+  },
+  {
+    "quote": "Try @clawdbot. I think you are going to love it. And you can use iMessage, WhatsApp, telegram to talk to it.",
+    "author": "mneves75",
+    "url": "https://x.com/mneves75/status/2011673080062681560"
+  },
+  {
+    "quote": "🦞 Is a whole new world! Like having super powers! Getting so much done while afk, it's mind blowing 🤯",
+    "author": "oneishaansharma",
+    "url": "https://x.com/oneishaansharma/status/2013067106322092131"
+  },
+  {
+    "quote": "Got @clawdbot set up. Getting it to unsubscribe from a whole bunch of emails I don't want. Really cool!",
+    "author": "drevantonder",
+    "url": "https://x.com/drevantonder/status/2011655066596553108"
+  },
+  {
+    "quote": "Finally gave in and set up @clawdbot and it's so damn good on WhatsApp!! It works like a charm with ✨!",
+    "author": "cryptikcell",
+    "url": "https://x.com/cryptikcell/status/2012599614814220345"
+  },
+  {
+    "quote": "A megacorp like Anthropic or OpenAI could not build this. Literally impossible with how corpo works.",
+    "author": "Dimillian",
+    "url": "https://x.com/Dimillian/status/2008446638172340398"
+  },
+  {
+    "quote": "God dammit I was trying to resist … and now I can’t stop talking and adding things to @clawdbot 🙃",
+    "author": "ItzR3NO",
+    "url": "https://x.com/ItzR3NO/status/2010860706292494519"
+  },
+  {
+    "quote": "Not enterprise. Not hosted. Infrastructure you control. This is what personal AI should feel like.",
+    "author": "BioInfo",
+    "url": "https://x.com/BioInfo/status/2010115166315393370"
+  },
+  {
+    "quote": "Processed our entire source of truth via WhatsApp in minutes, where RAG agents struggled for days.",
+    "author": "pocarles",
+    "url": "https://x.com/pocarles/status/2007925850562531676"
+  },
+  {
+    "quote": "Everyday my @clawdbot is getting better. It’s becoming so important, especially with multi agent.",
+    "author": "adam91holt",
+    "url": "https://x.com/adam91holt/status/2010768201173622822"
+  },
+  {
+    "quote": "I love that ClawdBot has a \"Hackable\" install option. This should be a standard for OSS projects",
+    "author": "logscore",
+    "url": "https://x.com/logscore/status/2011126513022935133"
+  },
+  {
+    "quote": "I asked it to take picture of the sky whenever it's pretty. It designed a skill and took a pic!",
+    "author": "signalgaining",
+    "url": "https://x.com/signalgaining/status/2010523120604746151"
+  },
+  {
+    "quote": "Finally got around to setting up @clawdbot and it is truly the best AI tool at the moment.",
+    "author": "cnlinkcnlink",
+    "url": "https://x.com/cnlinkcnlink/status/2010149031071363355"
+  },
+  {
+    "quote": "started using minimax m2.1 as the main driver for @clawdbot and can’t recommend it enough",
+    "author": "pepicrft",
+    "url": "https://x.com/pepicrft/status/2010831913527746781"
+  },
+  {
+    "quote": "Uh Oh!! We got @clawdbot running.... No need for VAs anymore. Shits about to get real!!!",
+    "author": "BwcDeals",
+    "url": "https://x.com/BwcDeals/status/2010743485633355897"
+  },
+  {
+    "quote": "Clawdbot > anything GPT will ever release. Most fun I've had building in my entire life.",
+    "author": "Giebz",
+    "url": "https://x.com/Giebz/status/2009354385349095672"
+  },
+  {
+    "quote": "It is one of the most delightful thing (app, agent, product) I've used in a few years.",
+    "author": "coyotevn",
+    "url": "https://x.com/coyotevn/status/2010270055985295529"
+  },
+  {
+    "quote": "I'm literally building a whole website on a Nokia 3310 by calling @clawdbot right now.",
+    "author": "youbiak",
+    "url": "https://x.com/youbiak/status/2010097771735585016"
+  },
+  {
+    "quote": "we live in truly wild times this post is sponsored by Clawdbot (not really but dang)",
+    "author": "robinebers",
+    "url": "https://x.com/robinebers/status/2010713137277002207"
+  },
+  {
+    "quote": "normies agi = clawdbot + non-technical onboarding + hardware / iphone action button",
+    "author": "sughanthans1",
+    "url": "https://x.com/sughanthans1/status/2012099108794982777"
+  },
+  {
+    "quote": "gg man! everyday I speak to more people about Clawdbot and it never fails to amaze!",
+    "author": "tomosman",
+    "url": "https://x.com/tomosman/status/2012661550692102382"
+  },
+  {
+    "quote": "Essentially - you can automate almost anything you can do on the machine it sits on",
+    "author": "aus_bytes",
+    "url": "https://x.com/aus_bytes/status/2010463830049161441"
+  },
+  {
+    "quote": "Came out of my shell and gave my @clawdbot, Shelly, my credit card. Works amazing.",
+    "author": "jameskraus",
+    "url": "https://x.com/jameskraus/status/2012335532940894306"
+  },
+  {
+    "quote": "Running fully locally off MiniMax 2.1 and can do the tool parsing for what I need!",
+    "author": "TheZachMueller",
+    "url": "https://x.com/TheZachMueller/status/2012668844842578213"
+  },
+  {
+    "quote": "Now that we have @clawdbot I don’t really care which models will power Siri 🦞😄",
+    "author": "deepstereo_",
+    "url": "https://x.com/deepstereo_/status/2010810551656726835"
+  },
+  {
+    "quote": "Catching fun vibes I haven't felt since I first got into computers 30 years ago.",
+    "author": "buddyhadry",
+    "url": "https://x.com/buddyhadry/status/2010005331925954739"
+  },
+  {
+    "quote": "I was building my own, then found out @clawdbot has most of the thing I need 👍",
+    "author": "srg_io",
+    "url": "https://x.com/srg_io/status/2011976784355738029"
+  },
+  {
+    "quote": "looks dope as an AI assistant love it's platform/os agnostic, trying right away",
+    "author": "SaidAitmbarek",
+    "url": "https://x.com/SaidAitmbarek/status/2010467696828453178"
+  },
+  {
+    "quote": "Added JMAP search to my Clawdbot. Along with 20 other things. From my phone.",
+    "author": "jokull",
+    "url": "https://x.com/jokull/status/2011140610120642899"
+  },
+  {
+    "quote": "@clawdbot is so fun to play around with. The future of agents will be so fun",
+    "author": "tyler6204",
+    "url": "https://x.com/tyler6204/status/2010887971743092744"
+  },
+  {
+    "quote": "No more need to pay a virtual assistant!! @clawdbot is about to take over!!",
+    "author": "LinkScopic",
+    "url": "https://x.com/LinkScopic/status/2010896453808328933"
+  },
+  {
+    "quote": "I got my girlfriend on board earlier today and she's seems hooked already",
+    "author": "jandragsbaek",
+    "url": "https://x.com/jandragsbaek/status/2011581054206034300"
+  },
+  {
+    "quote": "This is the best 'morning briefing' style interface I've seen, love it!",
+    "author": "aaronmakelky",
+    "url": "https://x.com/aaronmakelky/status/2010190236584947845"
+  },
+  {
     "quote": "Can't believe I'm about to bootstrap Aineko from a lobster @clawdbot",
     "author": "pilkster",
     "url": "https://x.com/pilkster/status/2010150836857679878"
   },
   {
-    "quote": "Feels like we are living in the future. Working primarily with Clawdbot to research and build documents, syncing to Notion. Linking calendars and setting up Claude to manage my diary automatically. Building coding projects remotely from my phone. All done via WhatsApp.",
-    "author": "aus_bytes",
-    "url": "https://x.com/aus_bytes/status/2010148656687767803"
+    "quote": "Everything Siri was supposed to be. And it goes so much further.",
+    "author": "crossiBuilds",
+    "url": "https://x.com/crossiBuilds/status/2008478023826153665"
   },
   {
-    "quote": "You guys are nuts i love it",
-    "author": "AndyJScott",
-    "url": "https://x.com/AndyJScott/status/2010147231589175721"
+    "quote": "@clawdbot might actually organise my life. unreal, just unreal.",
+    "author": "Ashwinreads",
+    "url": "https://x.com/Ashwinreads/status/2010498194623311921"
   },
   {
-    "quote": "Gotta give incredible kudos to @steipete and his @clawdbot - it's one of the first tools I've used that truly feels like magic. I've also set it up so it knows my Obsidian notes and my Claude sub-agents…incredible stuff!",
-    "author": "svenkataram",
-    "url": "https://x.com/svenkataram/status/2010211836038427127"
+    "quote": "What @steipete has built with @clawdbot is out of this world.",
+    "author": "KrauseFx",
+    "url": "https://x.com/KrauseFx/status/2008531076487246176"
+  },
+  {
+    "quote": "Nano banana and RSS parsing set up in my @clawdbot assistant",
+    "author": "rafadc",
+    "url": "https://x.com/rafadc/status/2010498529106530814"
+  },
+  {
+    "quote": "A glimpse into the future of how normal people will use AI.",
+    "author": "tysonhutchins_",
+    "url": "https://x.com/tysonhutchins_/status/2010046933893865701"
+  },
+  {
+    "quote": "I just tried @clawdbot using telegram. Wow. This is crazy.",
+    "author": "JorgeMenaDev",
+    "url": "https://x.com/JorgeMenaDev/status/2012512348456599719"
+  },
+  {
+    "quote": "What you've given to the world is nothing short of amazing",
+    "author": "BitcoinPeace77",
+    "url": "https://x.com/BitcoinPeace77/status/2013064560992047412"
+  },
+  {
+    "quote": "What a cool thing to have AI on call at your own computer.",
+    "author": "_KevinTang",
+    "url": "https://x.com/_KevinTang/status/2010914035550634494"
+  },
+  {
+    "quote": "Excellent reading thank you. Love oracle and Clawd.",
+    "author": "karpathy",
+    "url": "https://x.com/karpathy/status/2005692186470514904"
+  },
+  {
+    "quote": "Lol, this is hilarious, troubling, and awesome",
+    "author": "mike_kasberg",
+    "url": "https://x.com/mike_kasberg/status/2012314819819348259"
+  },
+  {
+    "quote": "Thanks for making clawdbot @steipete, Big fan.",
+    "author": "adityac7896",
+    "url": "https://x.com/adityac7896/status/2010405545606631719"
+  },
+  {
+    "quote": "just use @clawdbot man, it will set you free.",
+    "author": "serrrfirat",
+    "url": "https://x.com/serrrfirat/status/2011128261196333448"
+  },
+  {
+    "quote": "2026 is already the year of personal agents.",
+    "author": "chrisdietr",
+    "url": "https://x.com/chrisdietr/status/2010555854613803198"
+  },
+  {
+    "quote": "Try @clawdbot if you want more powerful 😆",
+    "author": "bangnokia",
+    "url": "https://x.com/bangnokia/status/2010914976308060301"
+  },
+  {
+    "quote": "This lobster is gonna take over the world",
+    "author": "alex_here_now",
+    "url": "https://x.com/alex_here_now/status/2010473539514904746"
+  },
+  {
+    "quote": "This is nuts. @clawdbot is a superpower.",
+    "author": "robmartinson",
+    "url": "https://x.com/robmartinson/status/2010410971056242689"
+  },
+  {
+    "quote": "@clawdbot is Jarvis. It already exists.",
+    "author": "nofil_ai",
+    "url": "https://x.com/nofil_ai/status/2010460892576788958"
+  },
+  {
+    "quote": "updates from @clawdbot absolutely rule",
+    "author": "theysayheygreg",
+    "url": "https://x.com/theysayheygreg/status/2010867523713945666"
+  },
+  {
+    "quote": "@clawdbot is what you are looking for.",
+    "author": "zachknicker",
+    "url": "https://x.com/zachknicker/status/2010172821495001180"
+  },
+  {
+    "quote": "The future is now old man: @clawdbot!",
+    "author": "Fhaefi",
+    "url": "https://x.com/Fhaefi/status/2012120124229402916"
+  },
+  {
+    "quote": "AGI is a lobster, it will never sink!",
+    "author": "FrancisBrero",
+    "url": "https://x.com/FrancisBrero/status/2012317589117247782"
+  },
+  {
+    "quote": "Feels like we're living in the future",
+    "author": "Philo01",
+    "url": "https://x.com/Philo01/status/2011214857614606435"
   }
 ]

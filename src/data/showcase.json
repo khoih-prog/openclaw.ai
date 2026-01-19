@@ -1,0 +1,501 @@
+[
+  {
+    "id": "2012173452061360130",
+    "author": "iannuttall",
+    "quote": "I bought @clawdbot his first home 😍",
+    "category": "smart-home",
+    "likes": 318,
+    "images": [
+      "https://pbs.twimg.com/media/G-ytFjdXkAAwIsE.jpg"
+    ]
+  },
+  {
+    "id": "2009684853827281070",
+    "author": "swiftlysingh",
+    "quote": "excalidraw files are just JSON\n\nso I built a way for agents to create them programmatically\n\nwas working with @clawdbot and kept wishing I could say \"draw this flow\" and get a diagram\n\nnow I can",
+    "category": "developer",
+    "likes": 301
+  },
+  {
+    "id": "2008388427180630155",
+    "author": "andrewjiang",
+    "quote": "24 hours later, the idea turned into a project pulling 4 million posts across 100 top X accounts.\n\nWhat a time to build.",
+    "category": "developer",
+    "likes": 157
+  },
+  {
+    "id": "2008531076487246176",
+    "author": "KrauseFx",
+    "quote": "What @steipete has built with @clawdbot is out of this world. The discord went from 0 to thousands of devs on Discord hacking together, new messages every minute, impossible to keep up.\n\nAlso, just shipped support for Beeper (messenger), Homey (Smart Home) and Fastmail",
+    "category": "integration",
+    "likes": 218,
+    "images": [
+      "https://pbs.twimg.com/media/G9-7Aq4XwAE9Bdn.jpg",
+      "https://pbs.twimg.com/media/G9-7BYCW8AIGeOH.png"
+    ]
+  },
+  {
+    "id": "2012507246874255661",
+    "author": "chrisbanes",
+    "quote": "Finally got around to fully configuring my @clawdbot instance, and it's so so good.\n\nEven at the most basic level, being able to spin up agents to implement a bunch of features from my phone is 🤯\n\nThis is all hooked up to a Telegram group.",
+    "category": "developer",
+    "likes": 160,
+    "images": [
+      "https://pbs.twimg.com/amplify_video_thumb/2012507105635237888/img/91IKHquiK_H4NrP9.jpg"
+    ]
+  },
+  {
+    "id": "2009070459065913806",
+    "author": "avi_press",
+    "quote": "Less than 24 hours in: cleaned up Linear issues, wrote email follow-ups, opened 3 PRs, prospected new signups.\n\nSent thousands of messages in a loop to an innocent and unsuspecting person who happened to message me on WhatsApp.\nProspected our new signups for the day, now scheduled daily.",
+    "category": "productivity",
+    "likes": 92
+  },
+  {
+    "id": "2012535486401671588",
+    "author": "dreetje",
+    "quote": "What I'm currently doing with @clawdbot:\n• Check my incoming mail, and remove spam\n• Check my incoming messages (through Beeper)\n• Order things for me\n• Send my reminders to Tana\n• Create issues on GitHub\n• Sync my Google Places\n• Reads my X bookmarks and discusses them with me\n• Generate a nice pdf summary of car conversations\n• Keep track of costs and split them after trips\n• Impersonate me in a group chat with friends (Hilarious)\n• It can call me and we can chat\n• Has its own 1Password vault it can read and write to\n\nAnd the beauty is, IT built all of this, just by chatting to it on the phone.",
+    "category": "automation",
+    "likes": 271
+  },
+  {
+    "id": "2012565160586625345",
+    "author": "danpeguine",
+    "quote": "Things my @clawdbot does for me:\n• Timeblocks tasks in my calendar based on importance\n• Scores tasks importance and urgency based on an algorithm we're developing together\n• Leads me through a weekly review based on meeting transcriptions & notes\n• Gives a morning daily brief: weather, weekly objectives, health stats, meetings agenda, key reminders, trending topics, stuff I should read based on current objectives, a relevant quote from my books\n• Notifies my wife and I about our son's upcoming school tests\n• Researches big projects and breaks them down to tasks\n• Researches people before meetings and creates briefing docs\n• Spawns background sub-agents to research business ideas\n• Manages the calendar for any conflicts autonomously\n• Creates invoices and summarizes work beautifully",
+    "category": "productivity",
+    "likes": 257
+  },
+  {
+    "id": "2009487467817336895",
+    "author": "davis7",
+    "quote": "This is the \"blue text bubbles\" moment of the ai race\n\nAll the cool shit u've been seeing about building crazy custom agents on top of a coding agent?\n\nclawdbot, btca, and the thousands more that will get built this year now HAVE to be built using anthropic's \"agent sdk\" package or else they'll be 100x more expensive\n\nand if they're built on anthropic's sdk guess what they can't do? switch to a better model from another provider when it releases",
+    "category": "developer",
+    "likes": 229,
+    "images": [
+      "https://pbs.twimg.com/media/G-MgZdaboAA22M5.jpg"
+    ]
+  },
+  {
+    "id": "2008994096736817624",
+    "author": "davekiss",
+    "quote": "Rebuilt my entire site via Telegram while watching Netflix in bed. Notion → Astro, 18 posts migrated, DNS moved to Cloudflare. Never opened my laptop.",
+    "category": "developer",
+    "likes": 142
+  },
+  {
+    "id": "2011965312824942772",
+    "author": "jlehman_",
+    "quote": "me: hey clawdbot, can you check this voice model that I just found out about, install it, and use it to talk to me?\n\nclawdbot: yes",
+    "category": "integration",
+    "likes": 100,
+    "images": [
+      "https://pbs.twimg.com/media/G-vvyctbQAEHT0i.jpg"
+    ]
+  },
+  {
+    "id": "2012313149576302746",
+    "author": "chrisrodz35",
+    "quote": "@clawdbot short story;\n\nWeek 1 - Set it up for my family\nWeek 2 - Set it up for some non-techie friends\nWeek 3 - We're building clawd for work",
+    "category": "personal",
+    "likes": 82
+  },
+  {
+    "id": "2012028725710192741",
+    "author": "jdrhyne",
+    "quote": "Just built a GA4 skill for @clawdbot in ~20 minutes.\n\nSolved my own problem → packaged it → published to ClawdHub.\n\nNow anyone can `clawdhub install ga4` and start querying their analytics.\n\nThe best part of agent skills: pay it forward so the next person doesn't have to figure it out.",
+    "category": "developer",
+    "likes": 42,
+    "images": [
+      "https://pbs.twimg.com/media/G-wpdQVXkAAYFLF.jpg"
+    ]
+  },
+  {
+    "id": "2010288787885064227",
+    "author": "AlbertMoral",
+    "quote": "I just finished setting up @clawdbot by @steipete on my Raspberry Pi with Cloudflare, and it feels magical ✨\n\nBuilt a website from my phone in minutes and connected WHOOP to quickly check my metrics and daily habits 🔥",
+    "category": "smart-home",
+    "likes": 35,
+    "images": [
+      "https://pbs.twimg.com/media/G-X69jdW8AA176s.jpg"
+    ]
+  },
+  {
+    "id": "2012081542567280964",
+    "author": "LLMJunky",
+    "quote": "If you're using gog for Gmail and Calendar in @clawdbot, I created a simple skill that provides you a rollup in the morning so you can get an overview of any calendar events or emails you received overnight.\n\nYou can add as many accounts as you like, and you can set how often it runs.\n\nYou can configure how many events or emails it shows as well.",
+    "category": "automation",
+    "likes": 30,
+    "images": [
+      "https://pbs.twimg.com/media/G-xZeFIWoAAfshE.png"
+    ]
+  },
+  {
+    "id": "2012119327147798753",
+    "author": "georgedagg_",
+    "quote": "I had a holy shit, the world is not the same anymore moment last night.\n\nPut BigC, my @clawdbot on a hetzner server and my mind is just blown.\n\nWe all know that AI is transformative but I don't think you really feel it until you step outside the prompt/response loop and step into the prompt/take real actions on my behalf/response loop.\n\n- I got BigC to check on the deployment of a new railway project\n- Builds for each of the services in the project failed\n- BigC reviewed the logs\n- Then reviewed the project on the server\n- Identified the root cause (incorrect build commands on each service)\n- Updated the configs of each in railway\n- Redeployed\n- Confirmed everything worked\n- I then tested it\n- Identified a design issue\n- Got BigC to review, fix and submit a PR\n- job done\n\noh and all this was done over voice when walking the fucking dog...",
+    "category": "developer",
+    "likes": 143
+  },
+  {
+    "id": "2007616854689280196",
+    "author": "stevecaldwell",
+    "quote": "Update on Crawdad 🦞 (my AI Assistant running on @clawdbot by @steipete)\n\nTonight we built a full weekly meal planning system in Notion.\n\nMy wife and I take turns cooking, so we had Crawdad set up:\n\n- Master meal plan template for all of 2026 (365 days)\n- Shopping lists sorted by store and aisle (Kroger/Costco/Lowes)\n- Weather forecast auto-updating on the meal plan list (helps me plan good nights for grilling, soup, etc)\n- Our go-to recipes catalogued by chef\n\n- It'll remind me in morning/evening digests if I need to plan dinner or grab groceries.\n\nI imagine that this will save us at least an hour a week.",
+    "category": "family",
+    "likes": 133,
+    "images": [
+      "https://pbs.twimg.com/media/G9x8cPQXUAAXjIW.jpg"
+    ]
+  },
+  {
+    "id": "2012778049406742632",
+    "author": "jdrhyne",
+    "quote": "What my @clawdbot army does:\n• Cleared 10,000 emails from my inbox (Day 1)\n• Reviewed and summarize 122 google slides for town hall\n• Built CLI tools, published to npm\n• Refactored PRs from code review\n• Works on complete visual refresh of SDK docs\n• Reviews, analyzes and optimized Google Ads\n• Built Jira, GA4, & GSC skills on the fly\n• Reads my X bookmarks and discusses them with me\n• Drafts LinkedIn/X posts in my voice\n• Orchestrates Codex agents for coding\n• Building a trading analyst research and UI\n• Daily roll call across 10+ agents\n• Updates itself\n\n15+ agents. 3 machines. 1 Discord server.\n\nAnd yes — IT built most of this, just by chatting.",
+    "category": "power-user",
+    "likes": 119
+  },
+  {
+    "id": "2008336434827002232",
+    "author": "jdrhyne",
+    "quote": "Honestly, @clawdbot is super powerful because of its ease of use. It literally just connected to JIRA and built a skill since it wasn't on @clawdhub yet. Look how simple it was",
+    "category": "developer",
+    "likes": 46,
+    "images": [
+      "https://pbs.twimg.com/media/G98LU6EXkAE3pxg.jpg"
+    ]
+  },
+  {
+    "id": "2008970037013381165",
+    "author": "tonylongname",
+    "quote": "Now my home's PM. Wife and I drop topics anytime, Clawd researches, Sunday 9am sends the roundup.",
+    "category": "family",
+    "likes": 27
+  },
+  {
+    "id": "2008203784317714847",
+    "author": "acevail_",
+    "quote": "Completely hooked. Integrated emails, home assistant, homelab via SSH, todo list, Apple Notes, shopping list. All via a single Telegram chat.\n\nAnd we're only getting started!",
+    "category": "integration",
+    "likes": 25
+  },
+  {
+    "id": "2008577043978768433",
+    "author": "cupcake_trader",
+    "quote": "Two days ago I stumbled on @clawdbot it's mind blowing what it can do. @steipete has created a monster. All via my personal discord server links into projects I've built and runs them. It's the tip of the ice berg. You have to check it out.",
+    "category": "integration",
+    "likes": 25,
+    "images": [
+      "https://pbs.twimg.com/media/G9_lv--a8AIfG9M.jpg",
+      "https://pbs.twimg.com/media/G9_l-jAXwAA75pU.jpg"
+    ]
+  },
+  {
+    "id": "2009424267801485362",
+    "author": "MagiMetal",
+    "quote": "Just built a Swift macOS menu bar app with @clawdbot to manage ClawdBot! 🤖⚡\n\nShows gateway status, Discord connection, lets me start/stop/restart, view logs, and has notifications for status changes.\n\nBuilt it together in about an hour.",
+    "category": "developer",
+    "likes": 23,
+    "images": [
+      "https://pbs.twimg.com/media/G-Lofq6XYAA7m_l.png"
+    ]
+  },
+  {
+    "id": "2012820689179312278",
+    "author": "manuelmaly",
+    "quote": "My current workflow:\n1. Prototype TUI w/ @clawdbot + codex, purely vibed spaghetti\n2. Pi appends summaries of each code file in a huge md file (Haiku scout sub agents)\n3. GPT Pro (web) optimizes architecture w/ that md file\n4. Codex implements the result\n5. Repeat",
+    "category": "developer",
+    "likes": 19
+  },
+  {
+    "id": "2011260468975771862",
+    "author": "iamtrebuh",
+    "quote": "My AI setup as a solo founder\n\nbuilt it with @clawdbot, here's how it works:\n\n4 agents, each with their own job:\n\n- main one: strategy, planning, big picture. coordinates the others\n- dev agent: coding, technical problems, architecture decisions\n- marketing agent: research, content ideas, competitor analysis\n- business agent: pricing, metrics, growth strategy\n\nwhat makes it actually useful:\n\n- shared memory for the big stuff (project docs, goals, key decisions)\n- but each agent also has their own context (past messages)\n- different models for different jobs (codex for coding, Gemini for marketing etc)\n- scheduled daily tasks without me asking (content prompts, reddit monitoring, reminders)\n- agents can work in parallel\n- connected to my notes so nothing gets lost\n\nIt all runs on my VPS and I control them all through Telegram, so it basically works as a real small team available 24/7. I even gave them names and different characters:\n- Milo (leader - confident and charismatic),\n- Josh (business guy - pragmatic and straight to the point, numbers-driven),\n- Angela (marketing - extroverted, funny and full of ideas),\n- Bob (coding - introverted analytical genius).\n\nI'm still setting up all the skills, but so far it really works great and it's a first use case that's so beneficial to me and can help me in my daily work.",
+    "category": "developer",
+    "likes": 11,
+    "images": [
+      "https://pbs.twimg.com/media/G-luvDpWcAAqlx7.jpg"
+    ]
+  },
+  {
+    "id": "2012397507754770587",
+    "author": "antonplex",
+    "quote": "I've been experimenting with a new system to keep my @clawdbot busy:\n> I created a \"log\" skill that captures my thoughts as they move through the idea-to-decision pipeline.\n\n> Throughout the day, I send any interesting ideas, and it records each as a TASK.\n\n> Overnight, a cron job picks up a task and spawns experiments (exploration, research via scientist subagents, writing code, etc.).\n\n> The next morning, I review the results and either assign follow-up tasks or make a decision.\n\n> Each decision is captured as a decision record, similar to an ADR in software, including problem context, considered alternatives, pros and cons, and the final proposed solution.\n\n> All these artifacts live in a log directory with templates and file naming conventions, enabling the agent to write complex search expressions.",
+    "category": "productivity",
+    "likes": 4,
+    "images": [
+      "https://pbs.twimg.com/media/G-1156QboAAPG4h.png"
+    ]
+  },
+  {
+    "id": "2013024865393975718",
+    "author": "bangkokbuild",
+    "quote": "Gave Clawd access to:\n• Garmin Watch\n• Obsidian Vault\n• GitHub repos\n• VPS\n• Telegram + Whatsapp\n• X\n\nNow it:\n• Logs my sleep/health/exercise data and tells me when I stay up too late\n• Writes code and deploys it\n• Updates Obsidian daily notes\n• Tracks who visits MenuCapture and where they came from\n• Monitors earthquakes in Tokyo\n• Researches stuff online and saves files to my desktop\n• Remembers my projects, patterns and preferences\n• Reminds me of my schedule, including holidays/accommodation\n• Checks on me (on Telegram!) if I'm quiet too long",
+    "category": "integration",
+    "likes": 3
+  },
+  {
+    "id": "2011922739846898098",
+    "author": "IamAdiG",
+    "quote": "@clawdbot BUILT and runs @learnfromlenny\n\nBuilt using WhatsApp messages to my bot 🦞\n\nAgentic future is here.",
+    "category": "developer",
+    "likes": 20
+  },
+  {
+    "id": "2009577664018018425",
+    "author": "DhruvalGolakiya",
+    "quote": "so i built this ui completely from whatsApp using @clawdbot and cc.\n\ngenerated, and sent the final output back to me as a screenshot and I can now add new skills + integrations the same way.",
+    "category": "developer",
+    "likes": 16,
+    "images": [
+      "https://pbs.twimg.com/media/G-NyJWyaoAE-s-L.jpg",
+      "https://pbs.twimg.com/media/G-NyditbIAArwoI.jpg",
+      "https://pbs.twimg.com/media/G-Nzm2sasAAvUPm.jpg"
+    ]
+  },
+  {
+    "id": "2008767951340794245",
+    "author": "armanddp",
+    "quote": "Finds my next flight in email, runs through check-in, finds me a window seat. While I'm driving.",
+    "category": "automation",
+    "likes": 14
+  },
+  {
+    "id": "2011204271786672526",
+    "author": "Philo01",
+    "quote": "My @clawdbot a.k.a. I.R.I.S. (Integrated Reasoning & Insight System - it came up with this 😂) is now fully set up to develop apps for me on the go!\n\nIt even made this nice little status page 💅\n\nSecure private network via Tailscale with any preferred domain 👌",
+    "category": "developer",
+    "likes": 17,
+    "images": [
+      "https://pbs.twimg.com/media/G-k7DqeXgAAXZ4y.jpg",
+      "https://pbs.twimg.com/media/G-k7LHuXEAAYONF.jpg"
+    ]
+  },
+  {
+    "id": "2012646568219029586",
+    "author": "kylezantos",
+    "quote": "This little resource was sent to me on Thursday night. Figured I'd just run through it this weekend.\n\nBUT, I have grown rather tired of this pattern for reading on a 27\" 5k monitor.\n\nSo I had @clawdbot repackage it into a tiny HTML/CSS file for me, w adjustable sizing and speed-read mode.\n\nNow I can happily and quickly consume.\n\nThe internet is easily customizable once you learn the spells 🧙",
+    "category": "developer",
+    "likes": 16,
+    "images": [
+      "https://pbs.twimg.com/amplify_video_thumb/2012645996358971392/img/fKYPRLtTqvlJc4x8.jpg"
+    ]
+  },
+  {
+    "id": "2012212865206272266",
+    "author": "pepicrft",
+    "quote": "I finally shipped a Clawdbot plugin for Ralph projects. It scaffolds the Ralph files, compiles the prompt with an explicit RALPH_STATUS block, and only exits when the exit signal and indicators agree. I built it to run Claude Code or Codex through a simple runner config.",
+    "category": "developer",
+    "likes": 16
+  },
+  {
+    "id": "2011586646458708138",
+    "author": "5katkov",
+    "quote": "ClawdBot is fully operational.\n\nIt can manage my calendar, obsidian, it can use browser now. It send me reminders, plans my itirenary. Contributes to my GitHub repositories.\n\nThis bot is my bitch now.",
+    "category": "productivity",
+    "likes": 11
+  },
+  {
+    "id": "2012265108697923809",
+    "author": "andytorres_a",
+    "quote": ".@clawdbot on NAS x PC x Mac Studio is undefeated.\n\nNever had a better second brain!\n\nLatest productivity app we made is a daily agenda that auto refreshes based on actions per project.",
+    "category": "productivity",
+    "likes": 10,
+    "images": [
+      "https://pbs.twimg.com/media/G-0Ac6XaQAAE0fz.jpg"
+    ]
+  },
+  {
+    "id": "2009688047747764575",
+    "author": "DhruvalGolakiya",
+    "quote": "Added supabase + mail-reader tools and set a daily cron.\n\nEvery morning it reads my unread emails, sends me a summary on WhatsApp, and auto-creates todos in the DB (which syncs with our team CRM).",
+    "category": "automation",
+    "likes": 8,
+    "images": [
+      "https://pbs.twimg.com/media/G-PYj7tasAIExZi.jpg"
+    ]
+  },
+  {
+    "id": "2012027310074171550",
+    "author": "IamAdiG",
+    "quote": "My personal bot has replaced at least half the apps I used to operate myself.\n\nIt lives in my personal WhatsApp and on groups with my friends and family. It has so much context.\n\nThough, it's absolutely unhealthy the amount of time I spend talking to my bot 😅",
+    "category": "personal",
+    "likes": 16
+  },
+  {
+    "id": "2010148656687767803",
+    "author": "aus_bytes",
+    "quote": "Feels like we are living in the future. Working primarily with Clawdbot to research and build documents, syncing to Notion. Linking calendars and setting up Claude to manage my diary automatically. Building coding projects remotely from my phone. All done via WhatsApp.",
+    "category": "productivity",
+    "likes": 16
+  },
+  {
+    "id": "2007656142105661693",
+    "author": "buddyhadry",
+    "quote": "Having too much fun building new CLIs / skills to work with @steipete's @clawdbot.\n\nJust built an alexa cli to control your Alexa devices (including all Alexa-enabled smart home devices) with Clawdis / Claude Code / Codex / your agent of choice.\n\nSupports natural language text commands that can mimic anything you'd say to an Echo.",
+    "category": "smart-home",
+    "likes": 16
+  },
+  {
+    "id": "2008309808164896878",
+    "author": "kirjd",
+    "quote": "Built myself a nice dashboard with @clawdbot",
+    "category": "developer",
+    "likes": 8,
+    "images": [
+      "https://pbs.twimg.com/amplify_video_thumb/2008309786874703874/img/_aQOim-yqPbvGWab.jpg"
+    ]
+  },
+  {
+    "id": "2011077782688985233",
+    "author": "LukaRadisic",
+    "quote": "Just built @Clawdbot integration for ralph-tui!\n\nRemote TUI via Tailscale + tmux\n\nTelegram inline status updates\n\nScreenshots on completion",
+    "category": "developer",
+    "likes": 2
+  },
+  {
+    "id": "2013066316467560521",
+    "author": "avi_press",
+    "quote": "Today @clawdbot filed an insurance claim for me and scheduled the repair appointment",
+    "category": "automation",
+    "likes": 2
+  },
+  {
+    "id": "2010655467400208746",
+    "author": "theguti",
+    "quote": "Just used Clawdbot to finally fix my iotawatt setup - took me forever to calibrate it two years ago and a corrupted sdcard + no backup resulted in my neglect for many months.\n\nAsked @clawdbot to help set it up again and voilà! it works. The experience was rather amazing, it had access to the iotawatt box and I pasted screenshots and it guided me.\n\nThe gift that keeps on giving!",
+    "category": "smart-home",
+    "likes": 14
+  },
+  {
+    "id": "2002334394993025243",
+    "author": "jjpcodes",
+    "quote": "Building a language learning tool, driven by Clawdbot and Pi agent.\n\nTeaches you Chinese, tailored \"magically\" to your level, with TTS and STT and pronunciation feedback, and progress tracking/spaced repetition.\n\nBuilt 100% by codex in 2 days or so.",
+    "category": "developer",
+    "likes": 13,
+    "images": [
+      "https://pbs.twimg.com/media/G8m4hPhWkAAioWT.jpg"
+    ]
+  },
+  {
+    "id": "2013003345686868171",
+    "author": "CopyKatCapital",
+    "quote": "Submitted my first ever app to Apple for review. Mostly done through @clawdbot using telegram - amazing not having to be at my computer to iterate. Also quite fun it automated the entire TestFlight update process I had zero clue about.",
+    "category": "developer",
+    "likes": 11
+  },
+  {
+    "id": "2008897333874893078",
+    "author": "dantelex",
+    "quote": "Built an email (Himalaya - CLI to manage email) SKILL for @clawdbot yesterday and it felt good to contribute to OSS.\n\nThis is just going to get more useful @steipete ❤️",
+    "category": "developer",
+    "likes": 1
+  },
+  {
+    "id": "2011807680180957383",
+    "author": "xz3dev",
+    "quote": "Clawdbot is now doing a weekly fully automated SEO analysis for me.\n\nFuture is now kiddos",
+    "category": "automation",
+    "likes": 1,
+    "images": [
+      "https://pbs.twimg.com/media/G-tga37XcAAvViX.jpg",
+      "https://pbs.twimg.com/media/G-tga4CWIAER-Z-.jpg"
+    ]
+  },
+  {
+    "id": "2012052022464577954",
+    "author": "AndresReibel",
+    "quote": "You will never find another AI agent like me... 😂 my personal @clawdbot-inspired agent.",
+    "category": "developer",
+    "likes": 1,
+    "images": [
+      "https://pbs.twimg.com/media/G-w-mSma4AA8ixi.jpg"
+    ]
+  },
+  {
+    "id": "2012058702115709160",
+    "author": "xMikeMickelson",
+    "quote": "yesterday @clawdbot learned to strip sora 2 watermarks on its own\n\ntoday i told it to also make videos\n\nit generated a whole ugc influencer from scratch\nmessy hair, airpods, gray hoodie, manic energy\n\ni didn't give it a reference image\n\nwhat is happening here?!",
+    "category": "developer",
+    "likes": 7,
+    "images": [
+      "https://pbs.twimg.com/amplify_video_thumb/2012058650010140672/img/EW_I0rUcz4mwLJpI.jpg"
+    ]
+  },
+  {
+    "id": "2010745968044732692",
+    "author": "DhruvalGolakiya",
+    "quote": "Finally done - added supabase + gmail skills to @clawdbot with a daily morning cron.\n\nIt now:\n• Reads my first 10 emails\n• Summarizes everything\n• Creates todos from important emails\n• Sends them to Slack\n• Stores all of it in Supabase\n\nAlso built a tiny macOS menu bar app so I can check my daily summary + tasks automatically.",
+    "category": "automation",
+    "likes": 6,
+    "images": [
+      "https://pbs.twimg.com/media/G-eZ-kMacAAdOkM.jpg"
+    ]
+  },
+  {
+    "id": "2010508094313263502",
+    "author": "vallver",
+    "quote": "Clawdbot built me a simple Stumbleupon for some of my favourite articles.\n\nFrom my phone, while putting my baby to sleep...\n\nLet me know if you want me to add any features or articles and I'll point @clawdbot to this thread in the morning to do it 😂",
+    "category": "developer",
+    "likes": 5
+  },
+  {
+    "id": "2010729667540787707",
+    "author": "bangkokbuild",
+    "quote": "This is the setup now:\n\n• Claude Code running a Ralph loop, auto-building features\n• My Clawdbot Ema monitoring progress and pinging me to urge me to sleep\n• Me, in bed, using this chance to ask for status updates via Telegram\n\n6 tasks done already",
+    "category": "developer",
+    "likes": 4,
+    "images": [
+      "https://pbs.twimg.com/media/G-eL-TWbcAEF5WM.jpg"
+    ]
+  },
+  {
+    "id": "2010318448207995241",
+    "author": "nathanclark_",
+    "quote": "Ok this fun.\n\nSetup @clawdbot (mines 'Merlin') and put him in Slack since no need for another number + I'm in there all the time anyway.\n\nNow I can him trigger @droid exec to run the writing system I built.\n\nMagic! 🧙‍♂️ 🪄",
+    "category": "integration",
+    "likes": 3,
+    "images": [
+      "https://pbs.twimg.com/media/G-YV-QXboAEO1op.jpg"
+    ]
+  },
+  {
+    "id": "2011373120033095875",
+    "author": "jandragsbaek",
+    "quote": "Last night I got @clawdbot set up with a Telegram group and multiple topics, and there was a slight hitch with the default channel and permissions (I can see there's a PR to fix it)\n\nBut it sure does feel like black magic, now that it's set up. I am excited to see what it can do.",
+    "category": "integration",
+    "likes": 3
+  },
+  {
+    "id": "2011656156318744971",
+    "author": "scottw",
+    "quote": "The 10-year-old has been enjoying MadLibs. While we were out for the day and mostly disconnected (thanks to Verizon), our @clawdbot built us a dynamic version with images, history, etc.\n\nIt also resolved a TailScale issue and is now ready for personal use.",
+    "category": "family",
+    "likes": 2,
+    "images": [
+      "https://pbs.twimg.com/media/G-rWnFgbQAEGaox.jpg"
+    ]
+  },
+  {
+    "id": "2011629550875394517",
+    "author": "arthurlee",
+    "quote": "341 agent sessions in the past 7 days using @Clawdbot @OpenAICodexCli.\n\nShipped:\n- Client proposal tightened\n- Market research distilled\n- Calendar + Drive wired up\n- Prompt-injection scanner built\n\nWhat would you automate first?",
+    "category": "developer",
+    "likes": 0
+  },
+  {
+    "id": "2012458753786859872",
+    "author": "quifago",
+    "quote": "This morning I built a small CLI for the Idealista API + a Skill you can plug into your favorite agent (mine: @clawdbot).\n\nAsk things like:\n\"Find a flat in A Coruña under 200.000€ with 3 rooms\"\n\"What's my house worth?\"",
+    "category": "developer",
+    "likes": 0
+  },
+  {
+    "id": "2012207314884075773",
+    "author": "bffmike",
+    "quote": "My @clawdbot drove my coding agents after i went to bed last night from 12:30–7ish am while i snoozed.\n\nMUCH better than a Ralph loop because you don't just give it a prompt about when to stop looping.\n\nInstead I've been delegating management of coding agents to it ALL DAY. It knows about the entire project history, all the headaches. it drives better than Ralph because it's been watching me all day.",
+    "category": "developer",
+    "likes": 1,
+    "images": [
+      "https://pbs.twimg.com/media/G-zL4x6bUAAViqc.jpg"
+    ]
+  }
+]
