@@ -79,7 +79,7 @@ This partnership is part of a broader security initiative at OpenClaw. In the co
 - **Details on our security audit** covering the entire codebase
 - **A formal security reporting process** with defined SLAs
 
-Follow progress and read the full security program overview at **trust.openclaw.ai**: https://trust.openclaw.ai
+Follow progress and read the full security program overview at [trust.openclaw.ai](https://trust.openclaw.ai/).
 
 We've brought on [Jamieson O'Reilly](https://twitter.com/theonejvo) (founder of Dvuln, co-founder of Aether AI, CREST Advisory Council member) as lead security advisor to guide this program.
 
