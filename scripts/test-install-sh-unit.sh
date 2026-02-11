@@ -227,4 +227,46 @@ EOF
   assert_eq "${PNPM_CMD[*]}" "pnpm" "ensure_pnpm (npm fallback)"
 )
 
+echo "==> case: install_openclaw_from_git (deps step uses run_pnpm function)"
+(
+  root="${TMP_DIR}/case-install-git-deps"
+  repo="${root}/repo"
+  home_dir="${root}/home"
+
+  mkdir -p "${repo}/.git" "${repo}/dist" "${home_dir}"
+  : > "${repo}/dist/entry.js"
+
+  export HOME="${home_dir}"
+  GIT_UPDATE=0
+  SHARP_IGNORE_GLOBAL_LIBVIPS=1
+
+  deps_called=0
+  deps_cmd=""
+
+  check_git() { return 0; }
+  install_git() { fail "install_git should not be called"; }
+  ensure_pnpm() { :; }
+  cleanup_legacy_submodules() { :; }
+  ensure_user_local_bin_on_path() { mkdir -p "${HOME}/.local/bin"; }
+  run_pnpm() { :; }
+  ui_info() { :; }
+  ui_success() { :; }
+  ui_warn() { :; }
+  ui_error() { :; }
+
+  run_quiet_step() {
+    local _title="$1"
+    shift
+    if [[ "${_title}" == "Installing dependencies" ]]; then
+      deps_called=1
+      deps_cmd="${1:-}"
+    fi
+    "$@" >/dev/null 2>&1 || true
+  }
+
+  install_openclaw_from_git "${repo}"
+  assert_eq "$deps_called" "1" "install_openclaw_from_git dependencies step"
+  assert_eq "$deps_cmd" "run_pnpm" "install_openclaw_from_git dependencies command"
+)
+
 echo "OK"
