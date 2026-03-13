@@ -35,6 +35,38 @@ mktempfile() {
     echo "$f"
 }
 
+resolve_brew_bin() {
+    local brew_bin=""
+    brew_bin="$(command -v brew 2>/dev/null || true)"
+    if [[ -n "$brew_bin" ]]; then
+        echo "$brew_bin"
+        return 0
+    fi
+    if [[ -x "/opt/homebrew/bin/brew" ]]; then
+        echo "/opt/homebrew/bin/brew"
+        return 0
+    fi
+    if [[ -x "/usr/local/bin/brew" ]]; then
+        echo "/usr/local/bin/brew"
+        return 0
+    fi
+    return 1
+}
+
+activate_brew_for_session() {
+    local brew_bin=""
+    brew_bin="$(resolve_brew_bin || true)"
+    if [[ -z "$brew_bin" ]]; then
+        return 1
+    fi
+    if [[ -z "$(command -v brew 2>/dev/null || true)" && "${BREW_SHELLENV_ANNOUNCED:-0}" != "1" ]]; then
+        ui_info "Found Homebrew at ${brew_bin}; exporting shellenv"
+        BREW_SHELLENV_ANNOUNCED=1
+    fi
+    eval "$("$brew_bin" shellenv)"
+    return 0
+}
+
 DOWNLOADER=""
 detect_downloader() {
     if command -v curl &> /dev/null; then
@@ -585,6 +617,7 @@ install_build_tools_linux() {
 
 install_build_tools_macos() {
     local ok=true
+    local brew_bin=""
 
     if ! xcode-select -p >/dev/null 2>&1; then
         ui_info "Installing Xcode Command Line Tools (required for make/clang)"
@@ -597,8 +630,10 @@ install_build_tools_macos() {
     fi
 
     if ! command -v cmake >/dev/null 2>&1; then
-        if command -v brew >/dev/null 2>&1; then
-            run_quiet_step "Installing cmake" brew install cmake
+        brew_bin="$(resolve_brew_bin || true)"
+        if [[ -n "$brew_bin" ]]; then
+            activate_brew_for_session || true
+            run_quiet_step "Installing cmake" "$brew_bin" install cmake
         else
             ui_warn "Homebrew not available; cannot auto-install cmake"
             ok=false
@@ -1192,8 +1227,10 @@ print_homebrew_admin_fix() {
 }
 
 install_homebrew() {
+    local brew_bin=""
     if [[ "$OS" == "macos" ]]; then
-        if ! command -v brew &> /dev/null; then
+        brew_bin="$(resolve_brew_bin || true)"
+        if [[ -z "$brew_bin" ]]; then
             if ! is_macos_admin_user; then
                 print_homebrew_admin_fix
                 exit 1
@@ -1202,13 +1239,12 @@ install_homebrew() {
             run_quiet_step "Installing Homebrew" run_remote_bash "https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh"
 
             # Add Homebrew to PATH for this session
-            if [[ -f "/opt/homebrew/bin/brew" ]]; then
-                eval "$(/opt/homebrew/bin/brew shellenv)"
-            elif [[ -f "/usr/local/bin/brew" ]]; then
-                eval "$(/usr/local/bin/brew shellenv)"
+            if ! activate_brew_for_session; then
+                ui_warn "Homebrew install completed but brew is still unavailable in this shell"
             fi
             ui_success "Homebrew installed"
         else
+            activate_brew_for_session || true
             ui_success "Homebrew already installed"
         fi
     fi
@@ -1252,9 +1288,12 @@ ensure_macos_node22_active() {
         return 0
     fi
 
+    local brew_bin=""
     local brew_node_prefix=""
-    if command -v brew &> /dev/null; then
-        brew_node_prefix="$(brew --prefix node@22 2>/dev/null || true)"
+    brew_bin="$(resolve_brew_bin || true)"
+    if [[ -n "$brew_bin" ]]; then
+        activate_brew_for_session || true
+        brew_node_prefix="$("$brew_bin" --prefix node@22 2>/dev/null || true)"
         if [[ -n "$brew_node_prefix" && -x "${brew_node_prefix}/bin/node" ]]; then
             export PATH="${brew_node_prefix}/bin:$PATH"
             refresh_shell_command_cache
@@ -2211,6 +2250,7 @@ run_bootstrap_onboarding_if_needed() {
 
     "$claw" onboard || {
         ui_error "Onboarding failed; run openclaw onboard to retry"
+        ui_info "If gateway startup looks unhealthy, run: openclaw gateway status --deep"
         return
     }
 }
