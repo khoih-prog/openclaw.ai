@@ -17,6 +17,15 @@ function claimPostAnchors(post: (typeof posts)[number]): string[] {
 
 const postAnchors = new Map(posts.map((post) => [post.id, claimPostAnchors(post)]));
 
+function formatTagLabel(tag: string): string {
+  const overrides: Record<string, string> = {
+    clawhub: 'ClawHub',
+    codex: 'Codex',
+    openai: 'OpenAI',
+  };
+  return overrides[tag] ?? tag.split('-').map((part) => part.charAt(0).toUpperCase() + part.slice(1)).join('-');
+}
+
 function formatDate(date: Date): string {
   return date.toLocaleDateString('en-US', {
     month: 'short',
@@ -55,7 +64,7 @@ function getAuthorAvatar(author: Author): string {
     <aside class="pub-sidebar" aria-label="Blog sections">
       <p class="rail-kicker">Journal</p>
       <a class="rail-link active" href="/blog">Latest</a>
-      {tags.map((tag) => <a class="rail-link" href={`/blog#${tag}`}>{tag}</a>)}
+      {tags.map((tag) => <a class="rail-link" href={`/blog#${tag}`}>{formatTagLabel(tag)}</a>)}
       <div class="rail-card">
         <span class="rail-card-mark">Ask</span>
         <p>Need implementation details? Jump from an essay into the docs without changing mental mode.</p>
@@ -83,7 +92,7 @@ function getAuthorAvatar(author: Author): string {
             <h2>{featured.data.title}</h2>
             <p>{featured.data.description}</p>
             <div class="post-tags">
-              {featured.data.tags.map((tag) => <span>{tag}</span>)}
+              {featured.data.tags.map((tag) => <span>{formatTagLabel(tag)}</span>)}
             </div>
           </div>
           <div class="featured-author">
@@ -117,7 +126,7 @@ function getAuthorAvatar(author: Author): string {
                 <div class="row-footer">
                   <span>{firstAuthor(post).name}</span>
                   <span>{estimateReadTime(post.body || '')}</span>
-                  {post.data.tags.slice(0, 3).map((tag) => <span class="tag">{tag}</span>)}
+                  {post.data.tags.slice(0, 3).map((tag) => <span class="tag">{formatTagLabel(tag)}</span>)}
                 </div>
               </div>
             </a>

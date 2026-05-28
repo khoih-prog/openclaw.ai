@@ -2,6 +2,7 @@
 
 ## Unreleased
 
+- Blog: capitalize tag labels on the blog landing page.
 - Blog: simplify the blog landing page headline.
 - Website: merge the product/docs/blog visual language, make the homepage quick-start first, and retire the standalone Trust pages in favor of `/blog#security`.
 - Website: cache X avatar lookups under local static assets and stop emitting Unavatar URLs in generated pages.
