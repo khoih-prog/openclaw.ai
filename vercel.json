@@ -1,14 +1,15 @@
 {
   "routes": [
     {
-      "src": "^/$",
+      "src": "^/(.*)$",
       "has": [{ "type": "host", "value": "trust.openclaw.ai" }],
-      "dest": "/trust"
+      "status": 308,
+      "headers": { "Location": "https://openclaw.ai/blog#security" }
     },
     {
-      "src": "^/(.+)$",
-      "has": [{ "type": "host", "value": "trust.openclaw.ai" }],
-      "dest": "/trust/$1"
+      "src": "^/trust(/.*)?$",
+      "status": 308,
+      "headers": { "Location": "/blog#security" }
     },
     {
       "src": "^/(.*)$",

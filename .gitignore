@@ -28,6 +28,7 @@ Thumbs.db
 
 # Local AI cache
 .claude/
+.crabbox/
 
 # Debug
 npm-debug.log*

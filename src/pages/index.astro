@@ -2,14 +2,16 @@
 import Layout from '../layouts/Layout.astro';
 import Icon from '../components/Icon.astro';
 import SectionHeader from '../components/SectionHeader.astro';
+import SiteTopbar from '../components/SiteTopbar.astro';
 import testimonials from '../data/testimonials.json';
 import communityBuilds from '../data/community-builds.json';
 import pressArticles from '../data/press.json';
 import { getPublishedBlogPosts } from '../lib/blog';
 import { getCachedXAvatarSrc, getInitialsAvatarSrc } from '../lib/avatars';
 
-// Get latest blog post
-const [latestPost] = await getPublishedBlogPosts();
+const blogPosts = await getPublishedBlogPosts();
+const [latestPost] = blogPosts;
+const recentBlogPosts = blogPosts.slice(1, 3);
 import {
   siWhatsapp, siTelegram, siDiscord, siSignal, siApple,
   siAnthropic, siSpotify, siObsidian, siGithub, siGooglechrome, siGmail,
@@ -54,9 +56,18 @@ const duration1 = (row1.length / 2 * pixelsPerItem) / pixelsPerSecond;
 const duration2 = (row2.length / 2 * pixelsPerItem) / pixelsPerSecond;
 const featuredBuilds = communityBuilds.slice(0, 4);
 const featuredPress = pressArticles.slice(0, 4);
+
+function formatBlogDate(date: Date): string {
+  return date.toLocaleDateString('en-US', {
+    month: 'short',
+    day: 'numeric',
+    year: 'numeric',
+  });
+}
 ---
 
 <Layout title="OpenClaw — Personal AI Assistant">
+  <SiteTopbar active="home" />
   <div class="stars"></div>
   <div class="nebula"></div>
 
@@ -99,61 +110,6 @@ const featuredPress = pressArticles.slice(0, 4);
         All from WhatsApp, Telegram, or any chat app you already use.
       </p>
     </header>
-
-    <!-- Latest Blog Post -->
-    {latestPost && (
-      <section class="latest-post">
-        <a href={`/blog/${latestPost.id}`} class="latest-post-card">
-          <span class="latest-post-badge">New</span>
-          <span class="latest-post-title">{latestPost.data.title}</span>
-          <span class="latest-post-link">→</span>
-        </a>
-      </section>
-    )}
-
-    <!-- Testimonials (moved up for social proof) -->
-    <section class="testimonials">
-      <SectionHeader 
-        title="What People Say" 
-        link={{ href: "/shoutouts", text: "View all" }}
-      />
-      <div class="testimonials-track">
-        <div class="testimonials-row row-1" style={`--duration: ${duration1}s`}>
-          {row1.map((t) => (
-            <a href={t.url} target="_blank" rel="noopener" class="testimonial-card" tabindex="-1">
-              <img
-                src={getCachedXAvatarSrc(t.author, t.author, 88)}
-                alt={t.author}
-                class="testimonial-avatar"
-                loading="lazy"
-                onerror={`this.src='${getInitialsAvatarSrc(t.author, 88)}'`}
-              />
-              <div class="testimonial-content">
-                <p class="testimonial-quote">"{t.quote}"</p>
-                <span class="testimonial-author">@{t.author}</span>
-              </div>
-            </a>
-          ))}
-        </div>
-        <div class="testimonials-row row-2" style={`--duration: ${duration2}s`}>
-          {row2.map((t) => (
-            <a href={t.url} target="_blank" rel="noopener" class="testimonial-card">
-              <img
-                src={getCachedXAvatarSrc(t.author, t.author, 88)}
-                alt={t.author}
-                class="testimonial-avatar"
-                loading="lazy"
-                onerror={`this.src='${getInitialsAvatarSrc(t.author, 88)}'`}
-              />
-              <div class="testimonial-content">
-                <p class="testimonial-quote">"{t.quote}"</p>
-                <span class="testimonial-author">@{t.author}</span>
-              </div>
-            </a>
-          ))}
-        </div>
-      </div>
-    </section>
 
     <!-- Quick Start -->
     <section id="quickstart" class="quickstart">
@@ -569,6 +525,84 @@ const featuredPress = pressArticles.slice(0, 4);
       }
     </script>
 
+    <!-- People -->
+    <section class="testimonials">
+      <SectionHeader
+        title="What People Say"
+        link={{ href: "/shoutouts", text: "View all" }}
+      />
+      <div class="testimonials-track">
+        <div class="testimonials-row row-1" style={`--duration: ${duration1}s`}>
+          {row1.map((t) => (
+            <a href={t.url} target="_blank" rel="noopener" class="testimonial-card" tabindex="-1">
+              <img
+                src={getCachedXAvatarSrc(t.author, t.author, 88)}
+                alt={t.author}
+                class="testimonial-avatar"
+                loading="lazy"
+                onerror={`this.src='${getInitialsAvatarSrc(t.author, 88)}'`}
+              />
+              <div class="testimonial-content">
+                <p class="testimonial-quote">"{t.quote}"</p>
+                <span class="testimonial-author">@{t.author}</span>
+              </div>
+            </a>
+          ))}
+        </div>
+        <div class="testimonials-row row-2" style={`--duration: ${duration2}s`}>
+          {row2.map((t) => (
+            <a href={t.url} target="_blank" rel="noopener" class="testimonial-card">
+              <img
+                src={getCachedXAvatarSrc(t.author, t.author, 88)}
+                alt={t.author}
+                class="testimonial-avatar"
+                loading="lazy"
+                onerror={`this.src='${getInitialsAvatarSrc(t.author, 88)}'`}
+              />
+              <div class="testimonial-content">
+                <p class="testimonial-quote">"{t.quote}"</p>
+                <span class="testimonial-author">@{t.author}</span>
+              </div>
+            </a>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- Latest -->
+    {latestPost && (
+      <section class="blog-preview">
+        <div class="blog-preview-head">
+          <div>
+            <span class="blog-preview-kicker">Latest</span>
+            <h2>Product notes with docs-level depth.</h2>
+          </div>
+          <a href="/blog" class="blog-preview-link">Read all</a>
+        </div>
+
+        <div class="blog-preview-grid">
+          <a href={`/blog/${latestPost.id}`} class="blog-feature">
+            <span class="blog-feature-badge">Latest</span>
+            <span class="blog-date">{formatBlogDate(latestPost.data.date)}</span>
+            <h3>{latestPost.data.title}</h3>
+            <p>{latestPost.data.description}</p>
+            <div class="blog-tags">
+              {latestPost.data.tags.slice(0, 3).map((tag) => <span>{tag}</span>)}
+            </div>
+          </a>
+          <div class="blog-recents">
+            {recentBlogPosts.map((post) => (
+              <a href={`/blog/${post.id}`} class="blog-recent">
+                <span class="blog-date">{formatBlogDate(post.data.date)}</span>
+                <h3>{post.data.title}</h3>
+                <p>{post.data.description}</p>
+              </a>
+            ))}
+          </div>
+        </div>
+      </section>
+    )}
+
     <!-- What It Does -->
     <section class="features">
       <SectionHeader title="What It Does" />
@@ -786,7 +820,7 @@ const featuredPress = pressArticles.slice(0, 4);
         <span class="footer-separator">·</span>
         <a href="/integrations">Integrations</a>
         <span class="footer-separator">·</span>
-        <a href="https://trust.openclaw.ai/">Trust</a>
+        <a href="/blog#security">Security</a>
       </nav>
       <p>Built by <a href="https://molty.me" target="_blank" rel="noopener">Molty</a> 🦞, a space lobster AI with a <a href="https://soul.md" target="_blank" rel="noopener">soul</a>, by <a href="https://steipete.me" target="_blank" rel="noopener">Peter Steinberger</a> & <a href="https://github.com/openclaw/openclaw#community" target="_blank" rel="noopener">community</a>.</p>
       <p class="disclaimer">Independent project, not affiliated with Anthropic.</p>
@@ -1967,52 +2001,157 @@ const featuredPress = pressArticles.slice(0, 4);
   }
 
   /* Latest Blog Post */
-  .latest-post {
-    margin-bottom: 40px;
+  .blog-preview {
+    margin-bottom: 56px;
     animation: fadeInUp 0.8s ease-out 0.5s both;
-    text-align: center;
   }
 
-  .latest-post-card {
+  .blog-preview-head {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 18px;
+  }
+
+  .blog-preview-kicker {
+    display: inline-block;
+    margin-bottom: 7px;
+    color: var(--coral-bright);
+    font-size: 0.78rem;
+    font-weight: 800;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+  }
+
+  .blog-preview h2 {
+    margin: 0;
+    color: var(--text-primary);
+    font-family: var(--font-display);
+    font-size: 1.55rem;
+    font-weight: 650;
+    letter-spacing: 0;
+    line-height: 1.15;
+  }
+
+  .blog-preview-link {
+    color: var(--coral-bright);
+    font-size: 0.9rem;
+    font-weight: 700;
+    text-decoration: none;
+  }
+
+  .blog-preview-link:hover {
+    color: var(--cyan-bright);
+  }
+
+  .blog-preview-grid {
+    display: grid;
+    grid-template-columns: minmax(0, 1.2fr) minmax(0, 0.8fr);
+    gap: 18px;
+  }
+
+  .blog-feature,
+  .blog-recent {
+    display: block;
+    border: 1px solid var(--border-subtle);
+    border-radius: 8px;
+    background: var(--surface-card-strong);
+    color: inherit;
+    text-decoration: none;
+    transition: border-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+  }
+
+  .blog-feature {
+    padding: 26px;
+    background:
+      linear-gradient(135deg, rgba(255, 77, 77, 0.08), rgba(0, 229, 204, 0.04)),
+      var(--surface-card-strong);
+  }
+
+  .blog-recent {
+    padding: 18px;
+  }
+
+  .blog-feature:hover,
+  .blog-recent:hover {
+    transform: translateY(-3px);
+    border-color: var(--coral-bright);
+    box-shadow: 0 12px 34px var(--shadow-coral-soft);
+  }
+
+  .blog-feature-badge,
+  .blog-date {
     display: inline-flex;
     align-items: center;
-    gap: 12px;
-    padding: 10px 20px;
-    border-radius: 50px;
-    background: var(--surface-card-strong);
-    border: 1px solid var(--border-subtle);
-    text-decoration: none;
-    transition: all 0.3s ease;
+    min-height: 24px;
+    margin-right: 8px;
+    color: var(--text-muted);
+    font-size: 0.78rem;
+    font-weight: 750;
   }
 
-  .latest-post-card:hover {
-    border-color: var(--coral-bright);
-    box-shadow: 0 4px 20px var(--shadow-coral-mid);
-  }
-
-  .latest-post-badge {
-    padding: 3px 8px;
-    border-radius: 12px;
+  .blog-feature-badge {
+    padding: 0 8px;
+    border-radius: 999px;
     background: var(--coral-bright);
     color: white;
-    font-size: 0.7rem;
-    font-weight: 600;
+    letter-spacing: 0.06em;
     text-transform: uppercase;
-    letter-spacing: 0.5px;
   }
 
-  .latest-post-title {
-    font-size: 0.9rem;
+  .blog-feature h3,
+  .blog-recent h3 {
+    margin: 12px 0 9px;
     color: var(--text-primary);
+    font-family: var(--font-display);
+    letter-spacing: 0;
+    line-height: 1.18;
+    transition: color 0.18s ease;
   }
 
-  .latest-post-link {
-    color: var(--text-muted);
-    transition: color 0.2s;
+  .blog-feature h3 {
+    font-size: 1.65rem;
   }
 
-  .latest-post-card:hover .latest-post-link {
+  .blog-recent h3 {
+    font-size: 1.05rem;
+  }
+
+  .blog-feature:hover h3,
+  .blog-recent:hover h3 {
     color: var(--coral-bright);
+  }
+
+  .blog-feature p,
+  .blog-recent p {
+    color: var(--text-secondary);
+    line-height: 1.62;
+  }
+
+  .blog-recents {
+    display: grid;
+    gap: 18px;
+  }
+
+  .blog-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 18px;
+  }
+
+  .blog-tags span {
+    display: inline-flex;
+    align-items: center;
+    min-height: 24px;
+    padding: 0 9px;
+    border: 1px solid color-mix(in srgb, var(--cyan-bright) 26%, var(--border-subtle));
+    border-radius: 999px;
+    background: var(--surface-cyan-soft);
+    color: var(--cyan-bright);
+    font-size: 0.74rem;
+    font-weight: 700;
   }
 
   /* Testimonials */
@@ -2157,6 +2296,26 @@ const featuredPress = pressArticles.slice(0, 4);
 
     .cta-label {
       font-size: 0.9rem;
+    }
+
+    .blog-preview-head,
+    .blog-preview-grid {
+      display: block;
+    }
+
+    .blog-preview-link {
+      display: inline-flex;
+      margin-top: 12px;
+    }
+
+    .blog-feature,
+    .blog-recent {
+      margin-bottom: 14px;
+      padding: 18px;
+    }
+
+    .blog-feature h3 {
+      font-size: 1.28rem;
     }
 
     .testimonials {

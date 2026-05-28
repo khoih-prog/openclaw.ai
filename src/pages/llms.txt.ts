@@ -7,8 +7,7 @@ const pages = [
   ["Shoutouts", "/shoutouts/"],
   ["Press", "/press/"],
   ["Blog", "/blog/"],
-  ["Trust", "/trust/"],
-  ["Threat Model", "/trust/threatmodel/"],
+  ["Security", "/blog#security"],
   ["Privacy", "/privacy/"],
 ];
 
