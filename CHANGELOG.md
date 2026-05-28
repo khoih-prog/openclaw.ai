@@ -2,6 +2,7 @@
 
 ## Unreleased
 
+- Website: redirect `blog.openclaw.ai` to the canonical blog at `openclaw.ai/blog`.
 - Blog: refine the article docs CTA panel colors.
 - Blog: cool down the featured post card border and background so the warm coral accent stops dominating the blog index hero.
 - CI: drop the stale GitHub Pages deploy workflow; the site has been served by Vercel for a while and Pages was no longer enabled.

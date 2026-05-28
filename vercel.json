@@ -2,6 +2,12 @@
   "routes": [
     {
       "src": "^/(.*)$",
+      "has": [{ "type": "host", "value": "blog.openclaw.ai" }],
+      "status": 308,
+      "headers": { "Location": "https://openclaw.ai/blog/$1" }
+    },
+    {
+      "src": "^/(.*)$",
       "has": [{ "type": "host", "value": "trust.openclaw.ai" }],
       "status": 308,
       "headers": { "Location": "https://openclaw.ai/blog#security" }
