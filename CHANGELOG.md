@@ -2,6 +2,7 @@
 
 ## Unreleased
 
+- Blog: simplify the blog landing page headline.
 - Website: merge the product/docs/blog visual language, make the homepage quick-start first, and retire the standalone Trust pages in favor of `/blog#security`.
 - Website: cache X avatar lookups under local static assets and stop emitting Unavatar URLs in generated pages.
 - Integrations: point provider, platform, automation, and ClawHub cards at canonical target pages, and fix the WhatsApp docs link (#137, thanks @Tilakraj0308).
