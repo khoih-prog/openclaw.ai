@@ -66,7 +66,7 @@ jobs:
         run: sudo apt-get update -y && sudo apt-get install -y shellcheck
 
       - name: ShellCheck
-        run: shellcheck -e SC1091 public/install.sh public/install-cli.sh scripts/test-install-matrix.sh scripts/docker/*/run.sh
+        run: shellcheck -e SC1091 public/install.sh public/install-cli.sh scripts/test-install-matrix.sh scripts/test-install-ps1-unit.sh scripts/docker/*/run.sh
 
   install-sh-unit:
     runs-on: ubuntu-latest
@@ -81,6 +81,9 @@ jobs:
         run: |
           bash public/install.sh --help >/tmp/install-help.txt
           bash public/install-cli.sh --help >/tmp/install-cli-help.txt
+
+      - name: PowerShell installer unit contract
+        run: bash scripts/test-install-ps1-unit.sh
 
   install-smoke:
     runs-on: ubuntu-latest
