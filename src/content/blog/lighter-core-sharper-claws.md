@@ -171,11 +171,6 @@ The package grew while OpenClaw gained channels, providers, media, memory, and p
     <p class="muted-note">Still not fully gone.</p>
   </div>
   <div class="mini-card">
-    <span>Shrinkwrap</span>
-    <strong>stays</strong>
-    <p><a href="https://docs.openclaw.ai/gateway/security/shrinkwrap">Shrinkwrap</a> was not the problem; the package shape was.</p>
-  </div>
-  <div class="mini-card">
     <span>Published files</span>
     <strong>9,082</strong>
     <p>Down 27% from 5.27 because 5.28 no longer ships the internal <code>dist/plugin-sdk/src/**</code> declaration mirror.</p>
