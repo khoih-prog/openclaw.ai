@@ -1,5 +1,5 @@
 ---
-import { FileText } from '@lucide/astro';
+import { FileText, Megaphone } from '@lucide/astro';
 import { siDiscord, siGithub } from 'simple-icons';
 
 type SimpleIcon = {
@@ -29,8 +29,13 @@ const { active = 'home' } = Astro.props;
 const items: NavItem[] = [
   { href: '/', label: 'Product' },
   { href: '/ecosystem', label: 'Ecosystem' },
-  { href: '/blog', label: 'Blog', icon: { kind: 'component', component: FileText } },
-  { href: 'https://docs.openclaw.ai/', label: 'Docs', external: true },
+  { href: '/blog', label: 'Blog', icon: { kind: 'component', component: Megaphone } },
+  {
+    href: 'https://docs.openclaw.ai/',
+    label: 'Docs',
+    external: true,
+    icon: { kind: 'component', component: FileText },
+  },
   {
     href: 'https://discord.com/invite/clawd',
     label: 'Discord',
