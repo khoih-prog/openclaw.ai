@@ -13,7 +13,7 @@ authors:
       - label: "@jesse_merhi"
         url: "https://x.com/jesse_merhi"
     avatar: "/blog/authors/jesse-merhi.jpg"
-draft: false
+draft: true
 tags: ["security", "codex", "approvals", "channels"]
 ---
 
