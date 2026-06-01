@@ -15,7 +15,7 @@ authors:
         url: "https://x.com/pat_erichsen"
       - label: "LinkedIn"
         url: "https://www.linkedin.com/in/patrick-erichsen/"
-draft: true
+draft: false
 tags: ["security", "announcement", "nvidia", "clawhub", "skills"]
 coverImage: "/blog/openclaw-nvidia-skill-security/openclaw-nvidia-cover.png"
 image: "/blog/openclaw-nvidia-skill-security/openclaw-nvidia-blog-lockup.png"
