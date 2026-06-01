@@ -786,6 +786,24 @@ const articleStructuredData = {
     font-style: italic;
   }
 
+  .article-content :global(.paper-callout) {
+    margin: 2rem 0 0;
+    padding: 18px 20px;
+    border: 1px solid color-mix(in srgb, var(--coral-bright) 38%, var(--border-subtle));
+    border-left: 4px solid var(--coral-bright);
+    border-radius: 8px;
+    background:
+      linear-gradient(
+        135deg,
+        color-mix(in srgb, var(--coral-bright) 10%, transparent),
+        color-mix(in srgb, var(--cyan-bright) 6%, transparent)
+      ),
+      color-mix(in srgb, var(--surface-card-strong) 70%, transparent);
+    color: var(--text-primary);
+    font-size: 0.98rem;
+    line-height: 1.7;
+  }
+
   .article-content :global(.metric-grid) {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));

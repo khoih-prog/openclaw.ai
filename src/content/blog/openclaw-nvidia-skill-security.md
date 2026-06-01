@@ -88,3 +88,7 @@ As one of the most popular skill registries, we are now running the full ClawSca
 Our hope is that this empowers the broader research community to join us in improving the state of the art in skill security tooling. This work is core to our mission of securing the entire agent skill ecosystem, and supporting the wider AI ecosystem.
 
 A rising tide lifts all claws. 🦞
+
+<aside class="paper-callout">
+For the full methodology and scanner-disagreement analysis, read the companion paper, <a href="/publications/clawhub-security-signals.pdf">ClawHub Security Signals: When VirusTotal, Static Analysis, and SkillSpector Disagree</a>.
+</aside>
