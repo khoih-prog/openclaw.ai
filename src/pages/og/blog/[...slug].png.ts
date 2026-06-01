@@ -71,7 +71,7 @@ async function getPublicImageDataUri(src: string | undefined): Promise<string | 
 
 function renderOgSvg(post: BlogPost, coverDataUri: string | null): string {
   const hasCover = Boolean(coverDataUri);
-  const titleLines = wrapText(post.data.title, hasCover ? 20 : 28, hasCover ? 4 : 3);
+  const titleLines = wrapText(post.data.title, hasCover ? 16 : 28, hasCover ? 5 : 3);
   const descriptionLines = wrapText(post.data.description, hasCover ? 40 : 60, hasCover ? 2 : 2);
 
   const coverPanel = coverDataUri
@@ -100,7 +100,7 @@ function renderOgSvg(post: BlogPost, coverDataUri: string | null): string {
     </clipPath>
     <style>
       .eyebrow { fill: #ff6b6b; font: 700 28px Arial, sans-serif; letter-spacing: 6px; }
-      .title { fill: #f0f4ff; font: 700 ${hasCover ? 50 : 68}px Arial, sans-serif; }
+      .title { fill: #f0f4ff; font: 700 ${hasCover ? 48 : 68}px Arial, sans-serif; }
       .description { fill: #a9b4d0; font: 400 28px Arial, sans-serif; }
     </style>
   </defs>
@@ -113,8 +113,8 @@ function renderOgSvg(post: BlogPost, coverDataUri: string | null): string {
   <circle cx="214" cy="522" r="3" fill="#f0f4ff" opacity="0.32"/>
   <rect x="58" y="56" width="1084" height="518" rx="32" fill="#0a0f1a" opacity="0.84" stroke="#263249"/>
   <text x="96" y="128" class="eyebrow">OPENCLAW BLOG</text>
-  ${textLines(titleLines, 96, hasCover ? 220 : 230, hasCover ? 58 : 78, 'title')}
-  ${textLines(descriptionLines, 96, hasCover ? 478 : 472, 38, 'description')}
+  ${textLines(titleLines, 96, hasCover ? 190 : 230, hasCover ? 54 : 78, 'title')}
+  ${textLines(descriptionLines, 96, hasCover ? 498 : 472, 38, 'description')}
   ${coverPanel}
 </svg>`;
 }
