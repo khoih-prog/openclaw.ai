@@ -1,6 +1,16 @@
 {
   "routes": [
     {
+      "src": "^/publications/?$",
+      "status": 308,
+      "headers": { "Location": "/publications/clawhub-security-signals.pdf" }
+    },
+    {
+      "src": "^/publications/clawhub-security-signals/?$",
+      "status": 308,
+      "headers": { "Location": "/publications/clawhub-security-signals.pdf" }
+    },
+    {
       "src": "^/discord/?$",
       "has": [{ "type": "host", "value": "openclaw.ai" }],
       "status": 302,

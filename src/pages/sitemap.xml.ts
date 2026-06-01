@@ -7,6 +7,7 @@ const staticPaths = [
   '/ecosystem',
   '/integrations',
   '/press',
+  '/publications/clawhub-security-signals.pdf',
   '/privacy',
   '/showcase',
   '/shoutouts',
