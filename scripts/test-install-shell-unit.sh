@@ -34,6 +34,7 @@ for script in "${SCRIPTS[@]}"; do
   require_contains "$script" 'fetch --no-tags origin "refs/heads/${ref}:refs/remotes/origin/${ref}"'
   require_contains "$script" 'pull --rebase --no-tags || true'
 
+  # shellcheck disable=SC2016
   branch_check_line="$(grep -nF 'ls-remote --exit-code --heads origin "$ref"' "$script" | head -n1 | cut -d: -f1 || true)"
   tag_fetch_line="$(grep -nF 'fetch --tags origin' "$script" | head -n1 | cut -d: -f1 || true)"
   if [[ -z "$branch_check_line" || -z "$tag_fetch_line" ]]; then
